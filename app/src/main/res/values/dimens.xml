@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="first_linear_layout_padding">16dp</dimen>
+    <dimen name="quiz_header_padding">16dp</dimen>
+    <dimen name="header_text_size">34sp</dimen>
+    <dimen name="vertical_space">16dp</dimen>
+</resources>
