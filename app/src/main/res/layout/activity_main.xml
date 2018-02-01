@@ -11,18 +11,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:padding="@dimen/quiz_header_padding"
         android:text="@string/quiz_header"
         android:textAllCaps="true"
         android:textColor="@android:color/black"
         android:textSize="@dimen/header_text_size" />
 
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/vertical_space"
         android:layout_marginTop="@dimen/vertical_space"
         android:onClick="gradeAnswersAndDisplayScore"
-        android:paddingBottom="@dimen/vertical_space"
         android:text="@string/submit_button" />
 
 
