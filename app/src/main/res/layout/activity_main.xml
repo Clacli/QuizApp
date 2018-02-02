@@ -38,7 +38,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Which botanical family does the genus Achillea L. belongs to?"
+                android:text="Which botanical family does the genus Achillea L. (yarrow) belongs to?"
                 android:textAppearance="?android:textAppearanceMedium"
                 android:textColor="@android:color/black" />
 
@@ -107,7 +107,7 @@
                 android:textColor="@android:color/black" />
 
             <EditText
-                android:id="@+id/saffron_edit"
+                android:id="@+id/crocus_edit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Please enter your answer here"
@@ -121,7 +121,6 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/vertical_space"
             android:layout_marginTop="@dimen/vertical_space"
-            android:onClick="gradeAnswersAndDisplayScore"
             android:text="@string/submit_button" />
 
         <TextView
