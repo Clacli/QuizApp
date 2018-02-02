@@ -1,41 +1,141 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="@dimen/first_linear_layout_padding"
     tools:context="com.example.android.quizapp.MainActivity">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="@string/quiz_header"
-        android:textAllCaps="true"
-        android:textColor="@android:color/black"
-        android:textSize="@dimen/header_text_size" />
+        android:orientation="vertical"
+        android:padding="@dimen/first_linear_layout_padding">
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/quiz_header"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/header_text_size" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/vertical_space"
-        android:layout_marginTop="@dimen/vertical_space"
-        android:onClick="gradeAnswersAndDisplayScore"
-        android:text="@string/submit_button" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/vertical_space"
+            android:layout_marginTop="@dimen/vertical_space"
+            android:gravity="center"
+            android:text="Plants too have names and families...how much do you know about them?"
+            android:textColor="@android:color/black"
+            android:textSize="22sp" />
 
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/quiz_grading"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/vertical_space"
-        android:gravity="center"
-        android:paddingBottom="@dimen/vertical_space"
-        android:text="Quiz Grading"
-        android:textAllCaps="true"
-        android:textColor="@android:color/black"
-        android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Which botanical family does the genus Achillea L. belongs to?"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/black" />
 
-</LinearLayout>
+            <RadioButton
+                android:id="@+id/asteraceae_radio_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Asteraceae"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/campanulaceae_radio_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Campanulaceae"
+                android:textAppearance="?android:textAppearanceMedium" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fennel is used in phytotherapy, herbalism and as a food. It belongs to the Apiaceae family. Which of the following plants belong to the same family?"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/black" />
+
+            <CheckBox
+                android:id="@+id/caraway_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Carum carvi L. - caraway"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <CheckBox
+                android:id="@+id/cumin_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cuminum cyminum L. - cumin"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <CheckBox
+                android:id="@+id/estragon_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Artemisia dracunculus L. - estragon"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/vertical_space"
+            android:layout_marginTop="@dimen/vertical_space"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Crocus sativus L. (Iridaceae) has been grown by men for thousands of years in order to obtain a very special spice. Which one?"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/saffron_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Please enter your answer here"
+                android:inputType="textCapWords" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/vertical_space"
+            android:layout_marginTop="@dimen/vertical_space"
+            android:onClick="gradeAnswersAndDisplayScore"
+            android:text="@string/submit_button" />
+
+        <TextView
+            android:id="@+id/quiz_grading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/vertical_space"
+            android:layout_marginTop="@dimen/vertical_space"
+            android:gravity="center"
+            android:text="Quiz Grading"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</ScrollView>
