@@ -26,9 +26,69 @@
             android:layout_marginBottom="@dimen/vertical_space"
             android:layout_marginTop="@dimen/vertical_space"
             android:gravity="center"
-            android:text="Plants too have names and families...how much do you know about them?"
+            android:text="Plants too have\nnames and families!\nTest your knowledge"
             android:textColor="@android:color/black"
             android:textSize="22sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rose belongs to the botanical family of Rosaceae. Which one or ones of the following belong to the same family?"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/black" />
+
+            <CheckBox
+                android:id="@+id/apple_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Malus domestica Borkh. - apple tree"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <CheckBox
+                android:id="@+id/cornelian_cherry_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cornus mas L. - cornelian cherry"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <CheckBox
+                android:id="@+id/hawthorn_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Crataegus monogyna Jacq. - hawthorn"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/vertical_space"
+            android:layout_marginTop="@dimen/vertical_space"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Orange tree, Lemon tree, grapefruit tree and lime tree all belong to the same family (Rutaceae) and botanical genus. Which one?"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/orange_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Please enter your answer here"
+                android:inputType="textCapWords" />
+
+        </LinearLayout>
+
 
         <RadioGroup
             android:layout_width="match_parent"

@@ -19,11 +19,15 @@ public class MainActivity extends AppCompatActivity {
 
     private OnClickListener mListener = new OnClickListener() {
         public void onClick(View v) {
+            calulateScoreForRosaceae();
+            Log.v("MainActivity", "score is: " + score);
+            calculateScoreForOrange();
+            Log.v("MainActivity", "score is: " + score);
             calculateScoreForAhillea();
             Log.v("MainActivity", "score is: " + score);
             calulateScoreForFennel();
             Log.v("MainActivity", "score is: " + score);
-            calculateScoreForSaffron();
+            calculateScoreForCrocus();
             Log.v("MainActivity", "score is: " + score);
             Toast.makeText(getApplicationContext(), "Your current score is " + score, Toast.LENGTH_SHORT).show();
             displayGrading("Your current score is " + score);
@@ -42,6 +46,29 @@ public class MainActivity extends AppCompatActivity {
         //Register the onClick listener with the implemented button
         submitButton.setOnClickListener(mListener);
     }
+
+    /**
+     * This method calculate the score for the Apiaceae quiz
+     *
+     * @return score of the quiz
+     */
+    private int calulateScoreForRosaceae() {
+        // Figure out if the user has checked caraway answer
+        CheckBox appleOption = findViewById(R.id.apple_checkbox);
+        boolean isAppleChecked = appleOption.isChecked();
+        // Figure out if the user has checked cumin answer
+        CheckBox cornelianCherryOption = findViewById(R.id.cornelian_cherry_checkbox);
+        boolean isCornelianCherryChecked = cornelianCherryOption.isChecked();
+        //Figure it out if the user has checked estragon answer
+        CheckBox hawthornOption = findViewById(R.id.hawthorn_checkbox);
+        boolean isHawthornChecked = hawthornOption.isChecked();
+        //Check if answer is correct
+        if (isAppleChecked && !isCornelianCherryChecked && isHawthornChecked) {
+            score = score + 1;
+        }
+        return score;
+    }
+
 
     /**
      * This method calculate the score for the Achillea quiz
@@ -81,11 +108,26 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * This method calculate the score for the Apiaceae quiz
+     * This method calculate the score for the Orange quiz
      *
      * @return score of the quiz
      */
-    private int calculateScoreForSaffron() {
+    private int calculateScoreForOrange() {
+        //Find the user's name
+        EditText orangeView = (EditText) findViewById(R.id.orange_edit);
+        String orangeAnswer = orangeView.getText().toString();
+        if (orangeAnswer.compareTo("Citrus") == 0) {
+            score = score + 1;
+        }
+        return score;
+    }
+
+    /**
+     * This method calculate the score for the Crocus quiz
+     *
+     * @return score of the quiz
+     */
+    private int calculateScoreForCrocus() {
         //Find the user's name
         EditText crocusView = (EditText) findViewById(R.id.crocus_edit);
         String crocusAnswer = crocusView.getText().toString();
