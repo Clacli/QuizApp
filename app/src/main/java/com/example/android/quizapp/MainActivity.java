@@ -42,17 +42,9 @@ public class MainActivity extends AppCompatActivity {
             Log.v("MainActivity", "score is: " + score);
             Toast.makeText(getApplicationContext(), createMessage(score), Toast.LENGTH_LONG).show();
             displayGrading("Your current score is " + score);
+            score = 0;
         }
     };
-
-//    private OnClickListener mResetListener = new OnClickListener() {   // TODO fix reset answer then enable reset button
-//        public void onClick(View v) {
-//            score = 0;
-//            Toast.makeText(getApplicationContext(), "Your score is " + score, Toast.LENGTH_SHORT).show();
-//            displayGrading("Your current score is " + score);
-//            finish();
-//        }
-//    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,10 +57,6 @@ public class MainActivity extends AppCompatActivity {
         final Button submitButton = (Button) findViewById(R.id.submit_button);
         //Register the onClick listener with the implemented button
         submitButton.setOnClickListener(mListener);
-//        //Capture reset button from layout
-//        Button resetButton = (Button) findViewById(R.id.reset_button);
-//        //Register the onClick listener with the implemented button
-//        resetButton.setOnClickListener(mResetListener);
     }
 
     /**
