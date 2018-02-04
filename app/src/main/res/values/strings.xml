@@ -31,4 +31,11 @@
     <string name="lythrum_question">Is purple loosestrife one of the common name of Lythrum salicaria L.(Lythraceae)?</string>
     <string name="reset_button">Reset</string>
     <string name="quiz_grading">Quiz Grading</string>
+    <string name="bilberry_shrub">bilberry shrub</string>
+    <string name="fly_on_a_daisy">fly on a daisy</string>
+    <string name="inflorescence_of_plantago_media">inflorescence of plantago media</string>
+    <string name="rose_hip">rose hip</string>
+    <string name="flowered_lemon_tree">flowered_lemon_tree</string>
+    <string name="yarrow_inflorescences">yarrow inflorescences</string>
+    <string name="flowered_lythrum_salicaria">flowered Lythrum salicaria</string>
 </resources>

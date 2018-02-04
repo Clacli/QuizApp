@@ -39,6 +39,13 @@
             android:layout_marginTop="@dimen/vertical_space"
             android:orientation="vertical">
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:contentDescription="@string/bilberry_shrub"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bilberry" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -67,6 +74,13 @@
             android:layout_marginBottom="@dimen/vertical_space"
             android:layout_marginTop="@dimen/vertical_space"
             android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:contentDescription="@string/fly_on_a_daisy"
+                android:scaleType="centerCrop"
+                android:src="@drawable/daisy" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -105,6 +119,13 @@
             android:layout_marginBottom="@dimen/vertical_space"
             android:layout_marginTop="@dimen/vertical_space"
             android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:contentDescription="@string/inflorescence_of_plantago_media"
+                android:scaleType="centerCrop"
+                android:src="@drawable/plantago_media" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -160,6 +181,13 @@
             android:layout_marginTop="@dimen/vertical_space"
             android:orientation="vertical">
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:contentDescription="@string/rose_hip"
+                android:scaleType="centerCrop"
+                android:src="@drawable/rose_hip" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -198,6 +226,13 @@
             android:layout_marginTop="@dimen/vertical_space"
             android:orientation="vertical">
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:contentDescription="@string/flowered_lemon_tree"
+                android:scaleType="centerCrop"
+                android:src="@drawable/lemon_flower" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -222,6 +257,13 @@
             android:layout_marginBottom="@dimen/vertical_space"
             android:layout_marginTop="@dimen/vertical_space"
             android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:contentDescription="@string/yarrow_inflorescences"
+                android:scaleType="centerCrop"
+                android:src="@drawable/yarrow" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -312,6 +354,13 @@
             android:layout_marginBottom="@dimen/vertical_space"
             android:layout_marginTop="@dimen/vertical_space"
             android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:contentDescription="@string/flowered_lythrum_salicaria"
+                android:scaleType="centerCrop"
+                android:src="@drawable/salcerella" />
 
             <TextView
                 android:layout_width="match_parent"
