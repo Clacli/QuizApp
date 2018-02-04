@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
             Log.v("MainActivity", "score is: " + score);
             calculateScoreForLythrum();
             Log.v("MainActivity", "score is: " + score);
-            Toast.makeText(getApplicationContext(), "Your score is " + score, Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), createMessage(score), Toast.LENGTH_LONG).show();
             displayGrading("Your current score is " + score);
         }
     };
@@ -252,9 +252,30 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * This method displays the given text on the screen.
+     * Create a message displayed as a toast after submission
+     *
+     * @param scoreOfTest submitted
+     * @return the message
      */
-    private void displayGrading(String result) {    // TODO Fix result message "You answered to" + numberOfRightAnswers + Right anwer. You are a + (0-3 no idea 4-5 little 6-8 good 9-10 botany lover)
-        gradingView.setText(result);                // TODO email intent result message you will love address kew garden site.
+
+    private String createMessage(int scoreOfTest) {
+        String message;
+        int numberOfCorrectAnwers = scoreOfTest;
+        if (scoreOfTest == 0) {
+            message = "You couldn't give any correct answer.\nYour score is: " + scoreOfTest;
+        } else if (scoreOfTest >= 1 && scoreOfTest <= 9) {
+            message = "You got " + numberOfCorrectAnwers + " out of 10. Your score is: " + scoreOfTest;
+        } else {
+            message = "You are a botany lover!\nYou gave 10 correct answers.\nYour score is: " + scoreOfTest;
+        }
+        return message;
+    }
+
+    /**
+     * This method displays the given text on the screen.
+     */                                                     // TODO email intent result message you will love address kew garden site.
+    private void displayGrading(String result) {
+
+        gradingView.setText(result);
     }
 }
