@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.inputmethod.EditorInfo;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
@@ -115,6 +116,7 @@ public class MainActivity extends AppCompatActivity {
     private int calculateScoreForOrange() {
         //Find the user's name
         EditText orangeView = (EditText) findViewById(R.id.orange_edit);
+        orangeView.setImeOptions(EditorInfo.IME_ACTION_DONE);
         String orangeAnswer = orangeView.getText().toString();
         if (orangeAnswer.compareTo("Citrus") == 0) {
             score = score + 1;
