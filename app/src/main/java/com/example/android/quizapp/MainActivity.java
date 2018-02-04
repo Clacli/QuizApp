@@ -41,7 +41,6 @@ public class MainActivity extends AppCompatActivity {
             calculateScoreForLythrum();
             Log.v("MainActivity", "score is: " + score);
             Toast.makeText(getApplicationContext(), createMessage(score), Toast.LENGTH_LONG).show();
-            displayGrading("Your current score is " + score);
             score = 0;
         }
     };
@@ -50,8 +49,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        gradingView = (TextView) findViewById(R.id.quiz_grading);
 
         //Capture submit button from layout
         final Button submitButton = (Button) findViewById(R.id.submit_button);
@@ -259,11 +256,4 @@ public class MainActivity extends AppCompatActivity {
         return message;
     }
 
-    /**
-     * This method displays the given text on the screen.
-     */                                                     // TODO email intent result message you will love address kew garden site.
-    private void displayGrading(String result) {
-
-        gradingView.setText(result);
-    }
 }

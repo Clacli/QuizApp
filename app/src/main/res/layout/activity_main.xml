@@ -343,26 +343,6 @@
             android:layout_marginTop="@dimen/vertical_space"
             android:text="@string/submit_button" />
 
-        <Button
-            android:id="@+id/reset_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/vertical_space"
-            android:layout_marginTop="@dimen/vertical_space"
-            android:text="@string/reset_button" />
-
-        <TextView
-            android:id="@+id/quiz_grading"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/vertical_space"
-            android:layout_marginTop="@dimen/vertical_space"
-            android:gravity="center"
-            android:text="@string/quiz_grading"
-            android:textAllCaps="true"
-            android:textColor="@android:color/black"
-            android:textSize="16sp" />
-
     </LinearLayout>
 
 </ScrollView>
