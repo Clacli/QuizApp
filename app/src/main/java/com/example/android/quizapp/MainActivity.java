@@ -45,6 +45,15 @@ public class MainActivity extends AppCompatActivity {
         }
     };
 
+//    private OnClickListener mResetListener = new OnClickListener() {   // TODO fix reset answer then enable reset button
+//        public void onClick(View v) {
+//            score = 0;
+//            Toast.makeText(getApplicationContext(), "Your score is " + score, Toast.LENGTH_SHORT).show();
+//            displayGrading("Your current score is " + score);
+//            finish();
+//        }
+//    };
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,6 +65,10 @@ public class MainActivity extends AppCompatActivity {
         final Button submitButton = (Button) findViewById(R.id.submit_button);
         //Register the onClick listener with the implemented button
         submitButton.setOnClickListener(mListener);
+//        //Capture reset button from layout
+//        Button resetButton = (Button) findViewById(R.id.reset_button);
+//        //Register the onClick listener with the implemented button
+//        resetButton.setOnClickListener(mResetListener);
     }
 
     /**
@@ -123,7 +136,7 @@ public class MainActivity extends AppCompatActivity {
      *
      * @return score of the quiz
      */
-    private int calulateScoreForAsteraceae() {                    //TODO Extract strings, translate, pics, header and landscape mode
+    private int calulateScoreForAsteraceae() {                    //TODO Translate, pics, header and landscape mode
         // Figure out if the user has checked carrot answer
         CheckBox carrotOption = findViewById(R.id.carrot_checkbox);
         boolean isCarrotChecked = carrotOption.isChecked();
@@ -241,7 +254,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * This method displays the given text on the screen.
      */
-    private void displayGrading(String result) {
-        gradingView.setText(result);
+    private void displayGrading(String result) {    // TODO Fix result message "You answered to" + numberOfRightAnswers + Right anwer. You are a + (0-3 no idea 4-5 little 6-8 good 9-10 botany lover)
+        gradingView.setText(result);                // TODO email intent result message you will love address kew garden site.
     }
 }
