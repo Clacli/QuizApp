@@ -28,13 +28,136 @@
             android:layout_marginBottom="@dimen/vertical_space"
             android:layout_marginTop="@dimen/vertical_space"
             android:gravity="center"
-            android:text="Plants too have\nnames and families!\nTest your knowledge"
+            android:text="Plants too have\n names and families!\nTest your knowledge"
             android:textColor="@android:color/black"
             android:textSize="22sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/vertical_space"
+            android:layout_marginTop="@dimen/vertical_space"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do bilberry, Vaccinium myrtillus L., and common myrtle, Myrtus communis L., belong to the same family?"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/black" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/no_radio_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:textAppearance="?android:textAppearanceMedium" />
+        </RadioGroup>
+
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/vertical_space"
+            android:layout_marginTop="@dimen/vertical_space"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Which of these plants belong to the Asteraceae family?"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/black" />
+
+            <CheckBox
+                android:id="@+id/carrot_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Daucus carota - wild carrot"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <CheckBox
+                android:id="@+id/daisy_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bellis perennis - daisy"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <CheckBox
+                android:id="@+id/calendula_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calendula officinalis - marigold"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/vertical_space"
+            android:layout_marginTop="@dimen/vertical_space"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plantago media L., hoary plantain, belongs to the Plantaginaceae family. What is the name of its inflorescence?"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/plantago_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Please enter your answer here"
+                android:imeOptions="actionDone"
+                android:inputType="textCapWords" />
+
+        </LinearLayout>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/vertical_space"
+            android:layout_marginTop="@dimen/vertical_space"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What botanical family do Olea europaea L. (olive tree), Fraxinus excelisior L. (Europaean ash) and Fraxinus ornus L. (manna ash) belong to?"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/black" />
+
+            <RadioButton
+                android:id="@+id/oleaceae_radio_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oleaceae"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/fraxinaceae_radio_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fraxinaceae"
+                android:textAppearance="?android:textAppearanceMedium" />
+        </RadioGroup>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/vertical_space"
+            android:layout_marginTop="@dimen/vertical_space"
             android:orientation="vertical">
 
             <TextView
@@ -96,6 +219,8 @@
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/vertical_space"
+            android:layout_marginTop="@dimen/vertical_space"
             android:orientation="vertical">
 
             <TextView
@@ -123,6 +248,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/vertical_space"
+            android:layout_marginTop="@dimen/vertical_space"
             android:orientation="vertical">
 
             <TextView
@@ -174,9 +301,39 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Please enter your answer here"
+                android:imeOptions="actionDone"
                 android:inputType="textCapWords" />
 
         </LinearLayout>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/vertical_space"
+            android:layout_marginTop="@dimen/vertical_space"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Is purple loosestrife one of the common name of Lythrum salicaria L. (Lythraceae)?"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/black" />
+
+            <RadioButton
+                android:id="@+id/yes_radio_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:textAppearance="?android:textAppearanceMedium" />
+        </RadioGroup>
+
 
         <Button
             android:id="@+id/submit_button"
