@@ -164,6 +164,14 @@
             android:layout_marginTop="@dimen/vertical_space"
             android:orientation="vertical">
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginBottom="@dimen/half_vertical_space"
+                android:contentDescription="@string/olive_branches"
+                android:scaleType="centerCrop"
+                android:src="@drawable/olive" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -364,6 +372,14 @@
             android:layout_marginBottom="@dimen/vertical_space"
             android:layout_marginTop="@dimen/vertical_space"
             android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginBottom="@dimen/half_vertical_space"
+                android:contentDescription="@string/pistils_of_crocus"
+                android:scaleType="centerCrop"
+                android:src="@drawable/saffron_sp" />
 
             <TextView
                 android:layout_width="match_parent"

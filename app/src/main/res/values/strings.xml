@@ -44,4 +44,6 @@
     <string name="score_1">You got only one answer right.\nYour score is:\u0020</string>
     <string name="score_2_to_9">You got %d out of 10 answers. Your score is: %d</string>
     <string name="score_10">Well done! You gave 10 correct answers. Your score is: %d</string>
+    <string name="olive_branches">olive branches</string>
+    <string name="pistils_of_crocus">pistils of crocus</string>
 </resources>

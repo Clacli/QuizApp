@@ -43,4 +43,6 @@
     <string name="score_1">Hai dato una sola risposta corretta.\nIl tuo punteggio è:\u0020</string>
     <string name="score_2_to_9">Hai dato %d risposte corrette su 10. Il tuo punteggio è: %d</string>
     <string name="score_10">Benissimo! Hai dato 10 risposte giuste. Il tuo punteggio è: %d</string>
+    <string name="olive_branches">rami di olivo</string>
+    <string name="pistils_of_crocus">pistilli di crocus</string>
 </resources>
