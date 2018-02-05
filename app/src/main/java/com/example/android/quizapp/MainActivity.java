@@ -119,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
      *
      * @return score of the quiz
      */
-    private int calulateScoreForAsteraceae() {                    //TODO Translate, and landscape mode
+    private int calulateScoreForAsteraceae() {
         // Figure out if the user has checked fennel answer
         CheckBox fennelOption = findViewById(R.id.fennel_checkbox);
         boolean isFennelChecked = fennelOption.isChecked();
@@ -245,11 +245,11 @@ public class MainActivity extends AppCompatActivity {
         String message;
         int numberOfCorrectAnwers = scoreOfTest;
         if (scoreOfTest == 0) {
-            message = "You couldn't give any correct answer.\nYour score is: " + scoreOfTest;
+            message = String.format(getString(R.string.score_0), scoreOfTest);
         } else if (scoreOfTest >= 1 && scoreOfTest <= 9) {
-            message = "You got " + numberOfCorrectAnwers + " out of 10. Your score is: " + scoreOfTest;
+            message = String.format(getString(R.string.score_1_to_9), numberOfCorrectAnwers, scoreOfTest);
         } else {
-            message = "You are a botany lover!\nYou gave 10 correct answers.\nYour score is: " + scoreOfTest;
+            message = String.format(getString(R.string.score_10), scoreOfTest);
         }
         return message;
     }

@@ -39,4 +39,7 @@
     <string name="wild_carrot_question">Wild carrot ,Daucus carota L., belongs to the Apiaceae family. Which of the following plants belong to the same family?</string>
     <string name="flowered_carrot">flowered carrots</string>
     <string name="flowered_yarrow">flowered yarrow</string>
+    <string name="score_0">You couldn\'t give any correct answer. Your score is: %d</string>
+    <string name="score_1_to_9">You got %d out of 10. Your score is: %d</string>
+    <string name="score_10">You are a botany lover! You gave 10 correct answers. Your score is: %d</string>
 </resources>
