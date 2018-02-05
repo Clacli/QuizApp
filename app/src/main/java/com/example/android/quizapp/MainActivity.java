@@ -192,7 +192,7 @@ public class MainActivity extends AppCompatActivity {
         plantagoView.setImeOptions(EditorInfo.IME_ACTION_DONE);
         String orangeAnswer = plantagoView.getText().toString();
         //Check if answer is correct to increase score by 1
-        if (orangeAnswer.compareTo("Spike") == 0) {
+        if (orangeAnswer.compareTo(getString(R.string.spike)) == 0) {
             score = score + 1;
         }
         return score;
