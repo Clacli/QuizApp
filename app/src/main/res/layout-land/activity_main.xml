@@ -444,9 +444,11 @@
             android:id="@+id/submit_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_marginBottom="@dimen/vertical_space"
-            android:layout_marginTop="@dimen/vertical_space"
-            android:text="@string/submit_button" />
+            android:layout_marginTop="@dimen/button_margin_top"
+            android:text="@string/submit_button"
+            android:textColor="@android:color/white" />
 
     </LinearLayout>
 
