@@ -10,13 +10,11 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
-import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    int score = 0;
-    private TextView gradingView;
+    private int score = 0;
 
     private OnClickListener mListener = new OnClickListener() {
         public void onClick(View v) {
@@ -108,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
      */
     private int calculateScoreForLythrum() {
         // Figure out if the user has checked yes answer
-        RadioButton yesOption = findViewById(R.id.yes_radio_button);
+        RadioButton yesOption = findViewById(R.id.affirmative_radio_button);
         boolean isYesChecked = yesOption.isChecked();
         if (isYesChecked) {
             score = score + 1;
@@ -121,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
      *
      * @return score of the quiz
      */
-    private int calulateScoreForAsteraceae() {                    //TODO Translate, pics, header and landscape mode
+    private int calulateScoreForAsteraceae() {                    //TODO Translate, and landscape mode
         // Figure out if the user has checked fennel answer
         CheckBox fennelOption = findViewById(R.id.fennel_checkbox);
         boolean isFennelChecked = fennelOption.isChecked();
