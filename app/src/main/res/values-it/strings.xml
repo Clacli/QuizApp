@@ -40,7 +40,7 @@
     <string name="lythrum_question">Salcerella è uno dei nomi comuni del <xliff:g example="Lythrum salicaria L." id="plant_name">Lythrum salicaria L.</xliff:g> <xliff:g example="(Lythraceae)" id="family_name">(Lythraceae)</xliff:g>?</string>
     <string name="saffron">Zafferano</string>
     <string name="score_0">Non hai dato risposte corrette. Il tuo punteggio è: %d</string>
-    <string name="score_1">Hai dato una sola risposta corretta.\nIl tuo punteggio è: %d</string>
+    <string name="score_1">Hai dato una sola risposta corretta.\nIl tuo punteggio è:\u0020</string>
     <string name="score_2_to_9">Hai dato %d risposte corrette su 10. Il tuo punteggio è: %d</string>
     <string name="score_10">Benissimo! Hai dato 10 risposte giuste. Il tuo punteggio è: %d</string>
 </resources>
