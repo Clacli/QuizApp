@@ -7,4 +7,6 @@
     <dimen name="quiz_text">16sp</dimen>
     <dimen name="half_vertical_space">8dp</dimen>
     <dimen name="button_margin_top">32dp</dimen>
+    <dimen name="land_picture_height">160dp</dimen>
+    <dimen name="port_picture_height">80dp</dimen>
 </resources>
