@@ -1,44 +1,44 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name"><xliff:g example="Quiz App" id="title">Quiz App</xliff:g></string>
+    <string name="app_name">Quiz App</string>
     <string name="quiz_header">Botanical Quiz</string>
     <string name="submit_button">Submit</string>
     <string name="quiz_subheader">Plants too have  names and families! Test your knowledge</string>
     <string name="bilberry_shrub">a bilberry shrub</string>
-    <string name="bilberry_question_text">Do bilberry, <xliff:g example="Vaccinium myrtillus L." id="plant_name">Vaccinium myrtillus L.</xliff:g>, and common myrtle, <xliff:g example="Myrtus communis L." id="plant name">Myrtus communis L.</xliff:g>, belong to the same family?</string>
+    <string name="bilberry_question_text">Do bilberry, Vaccinium myrtillus L., and common myrtle, Myrtus communis L., belong to the same family?</string>
     <string name="affirmative_answer">Yes</string>
-    <string name="negative_answer"><xliff:g example="No" id="negative_affirmation">No</xliff:g></string>
-    <string name="cuminum_answer"><xliff:g example="Cuminum cyminum L." id="plant_name">Cuminum cyminum L.</xliff:g> - cumin</string>
-    <string name="asteraceae_question">Which of these plants belong to the <xliff:g example="Asteraceae" id="family_name">Asteraceae</xliff:g> family?</string>
-    <string name="foeniculum_vulgare_fennel"><xliff:g example="Foeniculum vulgare Mill." id="plant_name">Foeniculum vulgare Mill.</xliff:g> - fennel</string>
+    <string name="negative_answer">No</string>
+    <string name="cuminum_answer">Cuminum cyminum L. - cumin</string>
+    <string name="asteraceae_question">Which of these plants belong to the Asteraceae family?</string>
+    <string name="foeniculum_vulgare_fennel">Foeniculum vulgare Mill. - fennel</string>
     <string name="fly_on_a_daisy">a fly on a daisy</string>
-    <string name="daisy_answer"><xliff:g example="Bellis perennis L." id="plant_name">Bellis perennis L.</xliff:g> - daisy</string>
-    <string name="marigold_answer"><xliff:g example="Calendula officinalis L." id="plant_name">Calendula officinalis L.</xliff:g> - marigold</string>
+    <string name="daisy_answer">Bellis perennis L. - daisy</string>
+    <string name="marigold_answer">Calendula officinalis L. - marigold</string>
     <string name="inflorescence_of_plantago_media">inflorescence of plantago media</string>
-    <string name="plantago_question"><xliff:g example="Plantago media L." id="plant_name">Plantago media L.</xliff:g>, hoary plantain, belongs to the <xliff:g example="Plantaginaceae" id="family_name">Plantaginaceae</xliff:g> family. What is the name of its inflorescence?</string>
+    <string name="plantago_question">Plantago media L., hoary plantain, belongs to the Plantaginaceae family. What is the name of its inflorescence?</string>
     <string name="answer_hint">Please enter your answer here</string>
     <string name="spike">Spike</string>
-    <string name="olive_family_question">What botanical family do <xliff:g example="Olea europaea L." id="plant_name">Olea europaea L.</xliff:g> (olive tree), <xliff:g example="Fraxinus excelsior L." id="plant_name">Fraxinus excelsior L.</xliff:g> (Europaean ash) and <xliff:g example="Fraxinus ornus L." id="plant_name">Fraxinus ornus L.</xliff:g> (manna ash) belong to?</string>
-    <string name="oleaceae"><xliff:g example="Oleaceae" id="family_name">Oleaceae</xliff:g></string>
-    <string name="fraxinaceae"><xliff:g example="Fraxinaceae" id="family_name">Fraxinaceae</xliff:g></string>
+    <string name="olive_family_question">What botanical family do Olea europaea L. (olive tree), Fraxinus excelsior L. (Europaean ash) and Fraxinus ornus L. (manna ash) belong to?</string>
+    <string name="oleaceae">Oleaceae</string>
+    <string name="fraxinaceae">Fraxinaceae</string>
     <string name="rose_hip">rose hip</string>
-    <string name="rosaceae_question">Rose belongs to the botanical family of <xliff:g example="Rosaceae" id="family_name">Rosaceae</xliff:g>. Which one or ones of the following belong to the same family?</string>
-    <string name="apple"><xliff:g example="Malus domestica Borkh." id="plant_name">Malus domestica Borkh.</xliff:g> - apple tree</string>
-    <string name="cornelian_cherry_answer"><xliff:g example="Cornus mas L." id="plant_name">Cornus mas L.</xliff:g> - cornelian cherry</string>
+    <string name="rosaceae_question">Rose belongs to the botanical family of Rosaceae. Which one or ones of the following belong to the same family?</string>
+    <string name="apple">Malus domestica Borkh. - apple tree</string>
+    <string name="cornelian_cherry_answer">Cornus mas L. - cornelian cherry</string>
     <string name="flowered_lemon_tree">flowered lemon tree</string>
-    <string name="hawthorn"><xliff:g example="Crataegus monogyna Jacq." id="plant_name">Crataegus monogyna Jacq.</xliff:g> - hawthorn</string>
+    <string name="hawthorn">Crataegus monogyna Jacq. - hawthorn</string>
     <string name="citrus">Citrus</string>
     <string name="citrus_question">Orange tree, Lemon tree, grapefruit tree and lime tree all belong to the same family <xliff:g example="Rutaceae" id="family_name">(Rutaceae)</xliff:g> and botanical genus. Which one?</string>
     <string name="flowered_yarrow">flowered yarrow</string>
-    <string name="yarrow_question">Which botanical family does the genus <xliff:g example="Achillea L." id="genus_name">Achillea L.</xliff:g>, yarrow belongs to?</string>
-    <string name="yarrow_answer"><xliff:g example="Asteraceae" id="family_name">Asteraceae</xliff:g></string>
-    <string name="campanulaceae_answer"><xliff:g example="Campanulaceae" id="family_name">Campanulaceae</xliff:g></string>
+    <string name="yarrow_question">Which botanical family does the genus Achillea L., yarrow belongs to?</string>
+    <string name="yarrow_answer">Asteraceae</string>
+    <string name="campanulaceae_answer">Campanulaceae</string>
     <string name="flowered_carrot">flowered carrots</string>
-    <string name="wild_carrot_question">Wild carrot, <xliff:g example="Daucus carota L." id="plant_name">Daucus carota L.</xliff:g>, belongs to the <xliff:g example="Apiaceae" id="family_name">Apiaceae</xliff:g> family. Which of the following plants belong to the same family?</string>
-    <string name="caraway_answer"><xliff:g example="Carum carvi L." id="plant_name">Carum carvi L.</xliff:g> - caraway</string>
-    <string name="estragon_answer"><xliff:g example="Artemisia dracunculus L." id="plant_name">Artemisia dracunculus L.</xliff:g> - estragon</string>
-    <string name="crocus_question"><xliff:g example="Crocus sativus L." id="plant_name">Crocus sativus L.</xliff:g> <xliff:g example="(Iridaceae)" id="family_name">(Iridaceae)</xliff:g> has been grown by men for thousands of years in order to obtain a very special spice. Which one?</string>
-    <string name="flowered_lythrum_salicaria">flowered <xliff:g example="Lythrum salicaria" id="plant_name">Lythrum salicaria</xliff:g></string>
-    <string name="lythrum_question">Is purple loosestrife one of the common name of <xliff:g example="Lythrum salicaria L." id="plant_name">Lythrum salicaria L.</xliff:g> <xliff:g example="(Lythraceae)" id="family_name">(Lythraceae)</xliff:g>?</string>
+    <string name="wild_carrot_question">Wild carrot, Daucus carota L., belongs to the Apiaceae family. Which of the following plants belong to the same family?</string>
+    <string name="caraway_answer">Carum carvi L. - caraway</string>
+    <string name="estragon_answer">Artemisia dracunculus L. - estragon</string>
+    <string name="crocus_question">Crocus sativus L. (Iridaceae) has been grown by men for thousands of years in order to obtain a very special spice. Which one?</string>
+    <string name="flowered_lythrum_salicaria">flowered Lythrum salicaria</string>
+    <string name="lythrum_question">Is purple loosestrife one of the common name of Lythrum salicaria L. (Lythraceae)?</string>
     <string name="saffron">Saffron</string>
     <string name="score_0">You couldn\'t give any correct answer. Your score is: %d</string>
     <string name="score_1">You got only one answer right.\nYour score is:\u0020</string>
