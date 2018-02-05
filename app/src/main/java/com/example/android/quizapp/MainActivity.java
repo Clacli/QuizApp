@@ -51,8 +51,8 @@ public class MainActivity extends AppCompatActivity {
     private int calculateScoreForBilberry() {
         // Figure out if the user has checked yes answer
         RadioButton noOption = findViewById(R.id.no_radio_button);
-        boolean isNoChecked = noOption.isChecked();
-        if (isNoChecked) {
+        boolean isNoAnswerChecked = noOption.isChecked();
+        if (isNoAnswerChecked) {
             score = score + 1;
         }
         return score;
@@ -96,8 +96,8 @@ public class MainActivity extends AppCompatActivity {
     private int calculateScoreForLythrum() {
         // Figure out if the user has checked yes answer
         RadioButton yesOption = findViewById(R.id.affirmative_radio_button);
-        boolean isYesChecked = yesOption.isChecked();
-        if (isYesChecked) {
+        boolean isYesAnswerChecked = yesOption.isChecked();
+        if (isYesAnswerChecked) {
             score = score + 1;
         }
         return score;
