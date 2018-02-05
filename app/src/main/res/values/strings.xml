@@ -26,9 +26,11 @@
     <string name="cornelian_cherry_answer"><xliff:g example="Cornus mas L." id="plant_name">Cornus mas L.</xliff:g> - cornelian cherry</string>
     <string name="flowered_lemon_tree">flowered lemon tree</string>
     <string name="hawthorn"><xliff:g example="Crataegus monogyna Jacq." id="plant_name">Crataegus monogyna Jacq.</xliff:g> - hawthorn</string>
+    <string name="citrus">Citrus</string>
     <string name="citrus_question">Orange tree, Lemon tree, grapefruit tree and lime tree all belong to the same family <xliff:g example="Rutaceae" id="family_name">(Rutaceae)</xliff:g> and botanical genus. Which one?</string>
-    <string name="yarrow_question">Which botanical family does the genus <xliff:g example="Achillea L." id="genus_name">Achillea L.</xliff:g>, yarrow belongs to?</string>
     <string name="flowered_yarrow">flowered yarrow</string>
+    <string name="yarrow_question">Which botanical family does the genus <xliff:g example="Achillea L." id="genus_name">Achillea L.</xliff:g>, yarrow belongs to?</string>
+    <string name="yarrow_answer"><xliff:g example="Asteraceae" id="family_name">Asteraceae</xliff:g></string>
     <string name="campanulaceae_answer"><xliff:g example="Campanulaceae" id="family_name">Campanulaceae</xliff:g></string>
     <string name="flowered_carrot">flowered carrots</string>
     <string name="wild_carrot_question">Wild carrot, <xliff:g example="Daucus carota L." id="plant_name">Daucus carota L.</xliff:g>, belongs to the <xliff:g example="Apiaceae" id="family_name">Apiaceae</xliff:g> family. Which of the following plants belong to the same family?</string>
@@ -37,8 +39,9 @@
     <string name="crocus_question"><xliff:g example="Crocus sativus L." id="plant_name">Crocus sativus L.</xliff:g> <xliff:g example="(Iridaceae)" id="family_name">(Iridaceae)</xliff:g> has been grown by men for thousands of years in order to obtain a very special spice. Which one?</string>
     <string name="flowered_lythrum_salicaria">flowered <xliff:g example="Lythrum salicaria" id="plant_name">Lythrum salicaria</xliff:g></string>
     <string name="lythrum_question">Is purple loosestrife one of the common name of <xliff:g example="Lythrum salicaria L." id="plant_name">Lythrum salicaria L.</xliff:g> <xliff:g example="(Lythraceae)" id="family_name">(Lythraceae)</xliff:g>?</string>
+    <string name="saffron">Saffron</string>
     <string name="score_0">You couldn\'t give any correct answer. Your score is: %d</string>
-    <string name="score_1_to_9">You got %d out of 10 answers. Your score is: %d</string>
+    <string name="score_1">You got only one answer right.\nYour score is: %d</string>
+    <string name="score_2_to_9">You got %d out of 10 answers. Your score is: %d</string>
     <string name="score_10">Well done! You gave 10 correct answers. Your score is: %d</string>
-    <string name="yarrow_answer">Asteraceae</string>
 </resources>

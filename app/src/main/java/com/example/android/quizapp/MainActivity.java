@@ -210,7 +210,7 @@ public class MainActivity extends AppCompatActivity {
         orangeView.setImeOptions(EditorInfo.IME_ACTION_DONE);
         String orangeAnswer = orangeView.getText().toString();
         //Check if answer is correct to increase score by 1
-        if (orangeAnswer.compareTo("Citrus") == 0) {
+        if (orangeAnswer.compareTo(getString(R.string.citrus)) == 0) {
             score = score + 1;
         }
         return score;
@@ -228,7 +228,7 @@ public class MainActivity extends AppCompatActivity {
         crocusView.setImeOptions(EditorInfo.IME_ACTION_DONE);
         String crocusAnswer = crocusView.getText().toString();
         //Check if answer is correct to increase score by 1
-        if (crocusAnswer.compareTo("Saffron") == 0) {
+        if (crocusAnswer.compareTo(getString(R.string.saffron)) == 0) {
             score = score + 1;
         }
         return score;
@@ -246,8 +246,10 @@ public class MainActivity extends AppCompatActivity {
         int numberOfCorrectAnwers = scoreOfTest;
         if (scoreOfTest == 0) {
             message = String.format(getString(R.string.score_0), scoreOfTest);
-        } else if (scoreOfTest >= 1 && scoreOfTest <= 9) {
-            message = String.format(getString(R.string.score_1_to_9), numberOfCorrectAnwers, scoreOfTest);
+        } else if (score == 1) {
+            message = String.format("%s%d", getString(R.string.score_1), score);
+        } else if (scoreOfTest >= 2 && scoreOfTest <= 9) {
+            message = String.format(getString(R.string.score_2_to_9), numberOfCorrectAnwers, scoreOfTest);
         } else {
             message = String.format(getString(R.string.score_10), scoreOfTest);
         }

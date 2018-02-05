@@ -26,6 +26,7 @@
     <string name="hawthorn"><xliff:g example="Crataegus monogyna Jacq." id="plant_name">Crataegus monogyna Jacq.</xliff:g> - biancospino</string>
     <string name="flowered_lemon_tree">limone in fiore</string>
     <string name="citrus_question">L\'arancio, il limone, l\'albero del pompelmo e quello del lime appartengono tutti alla stessa famiglia <xliff:g example="Rutaceae" id="family_name">(Rutaceae)</xliff:g> e allo stesso genere botanico. Quale?</string>
+    <string name="citrus"><xliff:g example="Citrus" id="genus_name">Citrus</xliff:g></string>
     <string name="flowered_yarrow">fiori di achillea</string>
     <string name="yarrow_question">A quale famiglia botanica appartiene il genere <xliff:g example="Achillea L." id="genus_name">Achillea L.</xliff:g>, yarrow?</string>
     <string name="yarrow_answer"><xliff:g example="Asteraceae" id="family_name">Asteraceae</xliff:g></string>
@@ -37,9 +38,9 @@
     <string name="crocus_question">Il <xliff:g example="Crocus sativus L." id="plant_name">Crocus sativus L.</xliff:g> <xliff:g example="(Iridaceae)" id="family_name"> (Iridaceae)</xliff:g> viene coltivato da migliaia di anni per ottenere una spezia molto preziosa. Quale?</string>
     <string name="flowered_lythrum_salicaria"><xliff:g example="Lythrum salicaria" id="plant_name">Lythrum salicaria</xliff:g> fiorita</string>
     <string name="lythrum_question">Salcerella è uno dei nomi comuni del <xliff:g example="Lythrum salicaria L." id="plant_name">Lythrum salicaria L.</xliff:g> <xliff:g example="(Lythraceae)" id="family_name">(Lythraceae)</xliff:g>?</string>
+    <string name="saffron">Zafferano</string>
     <string name="score_0">Non hai dato risposte corrette. Il tuo punteggio è: %d</string>
-    <string name="score_1_to_9">Hai dato %d risposte corrette su 10. Il tuo punteggio è: %d</string>
+    <string name="score_1">Hai dato una sola risposta corretta.\nIl tuo punteggio è: %d</string>
+    <string name="score_2_to_9">Hai dato %d risposte corrette su 10. Il tuo punteggio è: %d</string>
     <string name="score_10">Benissimo! Hai dato 10 risposte giuste. Il tuo punteggio è: %d</string>
-
-
 </resources>
