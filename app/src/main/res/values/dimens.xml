@@ -3,4 +3,6 @@
     <dimen name="first_linear_layout_padding">16dp</dimen>
     <dimen name="header_text_size">34sp</dimen>
     <dimen name="vertical_space">16dp</dimen>
+    <dimen name="sub_header">20sp</dimen>
+    <dimen name="quiz_text">16sp</dimen>
 </resources>

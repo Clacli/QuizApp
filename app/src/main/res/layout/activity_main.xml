@@ -29,8 +29,8 @@
             android:layout_marginTop="@dimen/vertical_space"
             android:gravity="center"
             android:text="@string/quiz_subheader"
-            android:textAppearance="?android:textAppearanceMedium"
-            android:textColor="@android:color/black" />
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/sub_header" />
 
         <RadioGroup
             android:layout_width="match_parent"
@@ -50,21 +50,21 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/bilberry_question_text"
-                android:textAppearance="?android:textAppearanceMedium"
-                android:textColor="@android:color/black" />
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/quiz_text" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/affirmative_answer"
-                android:textAppearance="?android:textAppearanceMedium" />
+                android:textSize="@dimen/quiz_text" />
 
             <RadioButton
                 android:id="@+id/no_radio_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/negative_answer"
-                android:textAppearance="?android:textAppearanceMedium" />
+                android:textSize="@dimen/quiz_text" />
         </RadioGroup>
 
 
@@ -86,29 +86,29 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/asteraceae_question"
-                android:textAppearance="?android:textAppearanceMedium"
-                android:textColor="@android:color/black" />
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/quiz_text" />
 
             <CheckBox
                 android:id="@+id/fennel_checkbox"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/foeniculum_vulgare_fennel"
-                android:textAppearance="?android:textAppearanceMedium" />
+                android:textSize="@dimen/quiz_text" />
 
             <CheckBox
                 android:id="@+id/daisy_checkbox"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/daisy_answer"
-                android:textAppearance="?android:textAppearanceMedium" />
+                android:textSize="@dimen/quiz_text" />
 
             <CheckBox
                 android:id="@+id/calendula_checkbox"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/marigold_answer"
-                android:textAppearance="?android:textAppearanceMedium" />
+                android:textSize="@dimen/quiz_text" />
 
         </LinearLayout>
 
@@ -131,8 +131,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/plantago_question"
-                android:textAppearance="?android:textAppearanceMedium"
-                android:textColor="@android:color/black" />
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/quiz_text" />
 
             <EditText
                 android:id="@+id/plantago_edit"
@@ -155,22 +155,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/olive_family_question"
-                android:textAppearance="?android:textAppearanceMedium"
-                android:textColor="@android:color/black" />
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/quiz_text" />
 
             <RadioButton
                 android:id="@+id/oleaceae_radio_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/oleaceae"
-                android:textAppearance="?android:textAppearanceMedium" />
+                android:textSize="@dimen/quiz_text" />
 
             <RadioButton
                 android:id="@+id/fraxinaceae_radio_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/fraxinaceae"
-                android:textAppearance="?android:textAppearanceMedium" />
+                android:textSize="@dimen/quiz_text" />
         </RadioGroup>
 
 
@@ -192,29 +192,29 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/rosaceae_question"
-                android:textAppearance="?android:textAppearanceMedium"
-                android:textColor="@android:color/black" />
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/quiz_text" />
 
             <CheckBox
                 android:id="@+id/apple_checkbox"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/apple"
-                android:textAppearance="?android:textAppearanceMedium" />
+                android:textSize="@dimen/quiz_text" />
 
             <CheckBox
                 android:id="@+id/cornelian_cherry_checkbox"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/cornelian_cherry_answer"
-                android:textAppearance="?android:textAppearanceMedium" />
+                android:textSize="@dimen/quiz_text" />
 
             <CheckBox
                 android:id="@+id/hawthorn_checkbox"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/hawthorn"
-                android:textAppearance="?android:textAppearanceMedium" />
+                android:textSize="@dimen/quiz_text" />
 
         </LinearLayout>
 
@@ -237,8 +237,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/citrus_question"
-                android:textAppearance="?android:textAppearanceMedium"
-                android:textColor="@android:color/black" />
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/quiz_text" />
 
             <EditText
                 android:id="@+id/orange_edit"
@@ -269,22 +269,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/yarrow_question"
-                android:textAppearance="?android:textAppearanceMedium"
-                android:textColor="@android:color/black" />
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/quiz_text" />
 
             <RadioButton
                 android:id="@+id/asteraceae_radio_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/asteraceae_answer"
-                android:textAppearance="?android:textAppearanceMedium" />
+                android:textSize="@dimen/quiz_text" />
 
             <RadioButton
                 android:id="@+id/campanulaceae_radio_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/campanulaceae_answer"
-                android:textAppearance="?android:textAppearanceMedium" />
+                android:textSize="@dimen/quiz_text" />
         </RadioGroup>
 
         <LinearLayout
@@ -305,29 +305,29 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/wild_carrot_question"
-                android:textAppearance="?android:textAppearanceMedium"
-                android:textColor="@android:color/black" />
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/quiz_text" />
 
             <CheckBox
                 android:id="@+id/caraway_checkbox"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/caraway_answer"
-                android:textAppearance="?android:textAppearanceMedium" />
+                android:textSize="@dimen/quiz_text" />
 
             <CheckBox
                 android:id="@+id/cumin_checkbox"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/cumin_answer"
-                android:textAppearance="?android:textAppearanceMedium" />
+                android:textSize="@dimen/quiz_text" />
 
             <CheckBox
                 android:id="@+id/estragon_checkbox"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/estragon_answer"
-                android:textAppearance="?android:textAppearanceMedium" />
+                android:textSize="@dimen/quiz_text" />
 
         </LinearLayout>
 
@@ -342,8 +342,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/crocus_question"
-                android:textAppearance="?android:textAppearanceMedium"
-                android:textColor="@android:color/black" />
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/quiz_text" />
 
             <EditText
                 android:id="@+id/crocus_edit"
@@ -373,21 +373,21 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/lythrum_question"
-                android:textAppearance="?android:textAppearanceMedium"
-                android:textColor="@android:color/black" />
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/quiz_text" />
 
             <RadioButton
                 android:id="@+id/yes_radio_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/affirmative_answer"
-                android:textAppearance="?android:textAppearanceMedium" />
+                android:textSize="@dimen/quiz_text" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/negative_answer"
-                android:textAppearance="?android:textAppearanceMedium" />
+                android:textSize="@dimen/quiz_text" />
         </RadioGroup>
 
 
