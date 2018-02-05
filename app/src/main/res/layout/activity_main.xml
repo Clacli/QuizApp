@@ -90,10 +90,10 @@
                 android:textColor="@android:color/black" />
 
             <CheckBox
-                android:id="@+id/carrot_checkbox"
+                android:id="@+id/fennel_checkbox"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/wild_carrot_answer"
+                android:text="@string/foeniculum_vulgare_fennel"
                 android:textAppearance="?android:textAppearanceMedium" />
 
             <CheckBox
@@ -261,7 +261,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:contentDescription="@string/yarrow_inflorescences"
+                android:contentDescription="@string/flowered_yarrow"
                 android:scaleType="centerCrop"
                 android:src="@drawable/yarrow" />
 
@@ -294,10 +294,17 @@
             android:layout_marginTop="@dimen/vertical_space"
             android:orientation="vertical">
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:contentDescription="@string/flowered_carrot"
+                android:scaleType="center"
+                android:src="@drawable/carrot_flowers" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/fennel_question"
+                android:text="@string/wild_carrot_question"
                 android:textAppearance="?android:textAppearanceMedium"
                 android:textColor="@android:color/black" />
 

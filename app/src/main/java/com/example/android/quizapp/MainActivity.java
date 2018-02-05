@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
             Log.v("MainActivity", "score is: " + score);
             calculateScoreForAhillea();
             Log.v("MainActivity", "score is: " + score);
-            calulateScoreForFennel();
+            calulateScoreForCarrot();
             Log.v("MainActivity", "score is: " + score);
             calculateScoreForCrocus();
             Log.v("MainActivity", "score is: " + score);
@@ -122,9 +122,9 @@ public class MainActivity extends AppCompatActivity {
      * @return score of the quiz
      */
     private int calulateScoreForAsteraceae() {                    //TODO Translate, pics, header and landscape mode
-        // Figure out if the user has checked carrot answer
-        CheckBox carrotOption = findViewById(R.id.carrot_checkbox);
-        boolean isCarrotChecked = carrotOption.isChecked();
+        // Figure out if the user has checked fennel answer
+        CheckBox fennelOption = findViewById(R.id.fennel_checkbox);
+        boolean isFennelChecked = fennelOption.isChecked();
         // Figure out if the user has checked daisy answer
         CheckBox daisyOption = findViewById(R.id.daisy_checkbox);
         boolean isDaisyChecked = daisyOption.isChecked();
@@ -132,7 +132,7 @@ public class MainActivity extends AppCompatActivity {
         CheckBox calendulaOption = findViewById(R.id.calendula_checkbox);
         boolean isCalendulaChecked = calendulaOption.isChecked();
         //Check if answer is correct
-        if (!isCarrotChecked && isDaisyChecked && isCalendulaChecked) {
+        if (!isFennelChecked && isDaisyChecked && isCalendulaChecked) {
             score = score + 1;
         }
         return score;
@@ -165,7 +165,7 @@ public class MainActivity extends AppCompatActivity {
      *
      * @return score of the quiz
      */
-    private int calulateScoreForFennel() {
+    private int calulateScoreForCarrot() {
         // Figure out if the user has checked caraway answer
         CheckBox carawayOption = findViewById(R.id.caraway_checkbox);
         boolean isCarawayChecked = carawayOption.isChecked();

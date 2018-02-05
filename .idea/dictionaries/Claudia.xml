@@ -12,6 +12,7 @@
       <w>carota</w>
       <w>carum</w>
       <w>carvi</w>
+      <w>communis</w>
       <w>cornelian</w>
       <w>cornus</w>
       <w>crataegus</w>
@@ -23,6 +24,7 @@
       <w>estragon</w>
       <w>europaea</w>
       <w>europaean</w>
+      <w>foeniculum</w>
       <w>fraxinaceae</w>
       <w>fraxinus</w>
       <w>inflorescences</w>
@@ -33,6 +35,8 @@
       <w>lythrum</w>
       <w>malus</w>
       <w>monogyna</w>
+      <w>myrtillus</w>
+      <w>myrtus</w>
       <w>officinalis</w>
       <w>olea</w>
       <w>oleaceae</w>
@@ -46,6 +50,9 @@
       <w>rutaceae</w>
       <w>salicaria</w>
       <w>sativus</w>
+      <w>subheader</w>
+      <w>vaccinium</w>
+      <w>vulgare</w>
     </words>
   </dictionary>
 </component>

@@ -7,7 +7,6 @@
     <string name="affirmative_answer">Yes</string>
     <string name="negative_answer">No</string>
     <string name="asteraceae_question">Which of these plants belong to the Asteraceae family?</string>
-    <string name="wild_carrot_answer">Daucus carota - wild carrot</string>
     <string name="daisy_answer">Bellis perennis - daisy</string>
     <string name="marigold_answer">Calendula officinalis - marigold</string>
     <string name="plantago_question">Plantago media L., hoary plantain, belongs to the Plantaginaceae family. What is the name of its inflorescence?</string>
@@ -23,7 +22,6 @@
     <string name="yarrow_question">Which botanical family does the genus Achillea L. (yarrow) belongs to?</string>
     <string name="asteraceae_answer">Asteraceae</string>
     <string name="campanulaceae_answer">Campanulaceae</string>
-    <string name="fennel_question">Fennel is used in phytotherapy, herbalism and as a food. It belongs to the Apiaceae family. Which of the following plants belong to the same family?</string>
     <string name="caraway_answer">Carum carvi L. - caraway</string>
     <string name="cumin_answer">Cuminum cyminum L. - cumin</string>
     <string name="estragon_answer">Artemisia dracunculus L. - estragon</string>
@@ -36,6 +34,9 @@
     <string name="inflorescence_of_plantago_media">inflorescence of plantago media</string>
     <string name="rose_hip">rose hip</string>
     <string name="flowered_lemon_tree">flowered_lemon_tree</string>
-    <string name="yarrow_inflorescences">yarrow inflorescences</string>
     <string name="flowered_lythrum_salicaria">flowered Lythrum salicaria</string>
+    <string name="foeniculum_vulgare_fennel">Foeniculum vulgare - fennel</string>
+    <string name="wild_carrot_question">Wild carrot ,Daucus carota L., belongs to the Apiaceae family. Which of the following plants belong to the same family?</string>
+    <string name="flowered_carrot">flowered carrots</string>
+    <string name="flowered_yarrow">flowered yarrow</string>
 </resources>
