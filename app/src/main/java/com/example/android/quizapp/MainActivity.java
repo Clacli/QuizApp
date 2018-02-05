@@ -2,7 +2,6 @@ package com.example.android.quizapp;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.inputmethod.EditorInfo;
@@ -19,25 +18,15 @@ public class MainActivity extends AppCompatActivity {
     private OnClickListener mListener = new OnClickListener() {
         public void onClick(View v) {
             calculateScoreForBilberry();
-            Log.v("MainActivity", "score is: " + score);
             calulateScoreForAsteraceae();
-            Log.v("MainActivity", "score is: " + score);
             calculateScoreForPlantago();
-            Log.v("MainActivity", "score is: " + score);
             calculateScoreForOleaceae();
-            Log.v("MainActivity", "score is: " + score);
             calulateScoreForRosaceae();
-            Log.v("MainActivity", "score is: " + score);
             calculateScoreForOrange();
-            Log.v("MainActivity", "score is: " + score);
             calculateScoreForAhillea();
-            Log.v("MainActivity", "score is: " + score);
             calulateScoreForCarrot();
-            Log.v("MainActivity", "score is: " + score);
             calculateScoreForCrocus();
-            Log.v("MainActivity", "score is: " + score);
             calculateScoreForLythrum();
-            Log.v("MainActivity", "score is: " + score);
             Toast.makeText(getApplicationContext(), createMessage(score), Toast.LENGTH_LONG).show();
             score = 0;
         }
