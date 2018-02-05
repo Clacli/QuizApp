@@ -42,6 +42,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
+                android:layout_marginBottom="@dimen/half_vertical_space"
                 android:contentDescription="@string/bilberry_shrub"
                 android:scaleType="centerCrop"
                 android:src="@drawable/bilberry" />
@@ -49,6 +50,8 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/half_vertical_space"
+                android:layout_marginTop="@dimen/half_vertical_space"
                 android:text="@string/bilberry_question_text"
                 android:textColor="@android:color/black"
                 android:textSize="@dimen/quiz_text" />
@@ -78,6 +81,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
+                android:layout_marginBottom="@dimen/half_vertical_space"
                 android:contentDescription="@string/fly_on_a_daisy"
                 android:scaleType="centerCrop"
                 android:src="@drawable/daisy" />
@@ -85,6 +89,8 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/half_vertical_space"
+                android:layout_marginTop="@dimen/half_vertical_space"
                 android:text="@string/asteraceae_question"
                 android:textColor="@android:color/black"
                 android:textSize="@dimen/quiz_text" />
@@ -123,6 +129,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
+                android:layout_marginBottom="@dimen/half_vertical_space"
                 android:contentDescription="@string/inflorescence_of_plantago_media"
                 android:scaleType="centerCrop"
                 android:src="@drawable/plantago_media" />
@@ -130,6 +137,8 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/half_vertical_space"
+                android:layout_marginTop="@dimen/half_vertical_space"
                 android:text="@string/plantago_question"
                 android:textColor="@android:color/black"
                 android:textSize="@dimen/quiz_text" />
@@ -154,6 +163,8 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/half_vertical_space"
+                android:layout_marginTop="@dimen/half_vertical_space"
                 android:text="@string/olive_family_question"
                 android:textColor="@android:color/black"
                 android:textSize="@dimen/quiz_text" />
@@ -184,6 +195,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
+                android:layout_marginBottom="@dimen/half_vertical_space"
                 android:contentDescription="@string/rose_hip"
                 android:scaleType="centerCrop"
                 android:src="@drawable/rose_hip" />
@@ -191,6 +203,8 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/half_vertical_space"
+                android:layout_marginTop="@dimen/half_vertical_space"
                 android:text="@string/rosaceae_question"
                 android:textColor="@android:color/black"
                 android:textSize="@dimen/quiz_text" />
@@ -229,6 +243,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
+                android:layout_marginBottom="@dimen/half_vertical_space"
                 android:contentDescription="@string/flowered_lemon_tree"
                 android:scaleType="centerCrop"
                 android:src="@drawable/lemon_flower" />
@@ -236,6 +251,8 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/half_vertical_space"
+                android:layout_marginTop="@dimen/half_vertical_space"
                 android:text="@string/citrus_question"
                 android:textColor="@android:color/black"
                 android:textSize="@dimen/quiz_text" />
@@ -261,6 +278,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
+                android:layout_marginBottom="@dimen/half_vertical_space"
                 android:contentDescription="@string/flowered_yarrow"
                 android:scaleType="centerCrop"
                 android:src="@drawable/yarrow" />
@@ -268,6 +286,8 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/half_vertical_space"
+                android:layout_marginTop="@dimen/half_vertical_space"
                 android:text="@string/yarrow_question"
                 android:textColor="@android:color/black"
                 android:textSize="@dimen/quiz_text" />
@@ -297,6 +317,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
+                android:layout_marginBottom="@dimen/half_vertical_space"
                 android:contentDescription="@string/flowered_carrot"
                 android:scaleType="center"
                 android:src="@drawable/carrot_flowers" />
@@ -304,6 +325,8 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/half_vertical_space"
+                android:layout_marginTop="@dimen/half_vertical_space"
                 android:text="@string/wild_carrot_question"
                 android:textColor="@android:color/black"
                 android:textSize="@dimen/quiz_text" />
@@ -341,6 +364,8 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/half_vertical_space"
+                android:layout_marginTop="@dimen/half_vertical_space"
                 android:text="@string/crocus_question"
                 android:textColor="@android:color/black"
                 android:textSize="@dimen/quiz_text" />
@@ -365,6 +390,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
+                android:layout_marginBottom="@dimen/half_vertical_space"
                 android:contentDescription="@string/flowered_lythrum_salicaria"
                 android:scaleType="centerCrop"
                 android:src="@drawable/salcerella" />
@@ -372,6 +398,8 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/half_vertical_space"
+                android:layout_marginTop="@dimen/half_vertical_space"
                 android:text="@string/lythrum_question"
                 android:textColor="@android:color/black"
                 android:textSize="@dimen/quiz_text" />

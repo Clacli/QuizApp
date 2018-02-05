@@ -5,4 +5,5 @@
     <dimen name="vertical_space">16dp</dimen>
     <dimen name="sub_header">20sp</dimen>
     <dimen name="quiz_text">16sp</dimen>
+    <dimen name="half_vertical_space">8dp</dimen>
 </resources>
