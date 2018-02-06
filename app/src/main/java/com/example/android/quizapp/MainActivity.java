@@ -13,6 +13,22 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    private static final String NO_BILBERRY_ANSWER = "noAnswer";
+    private static final String OLEACEAE_OPTION_ANSWER = "oleaceaeAnswer";
+    private static final String ASTERACEAE_OPTION_ANSWER = "asteraceaeAnswer";
+    private static final String YES_LYTHRUM_ANSWER = "yesAnswer";
+    private static final String FENNEL_ANSWER = "fennel";
+    private static final String DAISY_ANSWER = "daisy";
+    private static final String CALENDULA_ANSWER = "calendula";
+    private static final String APPLE_ANSWER = "apple";
+    private static final String CORNELIAN_CHERRY_ANSWER = "cornelianCherry";
+    private static final String HAWTHORN_ANSWER = "hawthorn";
+    private static final String CARAWAY_ANSWER = "caraway";
+    private static final String CUMIN_ANSWER = "cumin";
+    private static final String ESTRAGON_ANSWER = "estragon";
+    private static final String PLANTAGO_MEDIA_SPIKE = "spikePlantago";
+    private static final String CITRUS_ANSWER = "citrusAnswer";
+    private static final String SAFFRON_CROCUS_ANSWER = "saffronCrocus";
     //Declare instance variables that capture from layout radiobuttons views referring to right answer
     private RadioButton noOption;
     private RadioButton oleaceaeOption;
@@ -86,6 +102,53 @@ public class MainActivity extends AppCompatActivity {
         orangeView = (EditText) findViewById(R.id.orange_edit);
         crocusView = (EditText) findViewById(R.id.crocus_edit);
     }
+
+    @Override
+    public void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        noOption.setChecked(savedInstanceState.getBoolean(NO_BILBERRY_ANSWER));
+        oleaceaeOption.setChecked(savedInstanceState.getBoolean(OLEACEAE_OPTION_ANSWER));
+        asteraceaeOption.setChecked(savedInstanceState.getBoolean(ASTERACEAE_OPTION_ANSWER));
+        yesOption.setChecked(savedInstanceState.getBoolean(YES_LYTHRUM_ANSWER));
+        fennelOption.setChecked(savedInstanceState.getBoolean(FENNEL_ANSWER));
+        daisyOption.setChecked(savedInstanceState.getBoolean(DAISY_ANSWER));
+        calendulaOption.setChecked(savedInstanceState.getBoolean(CALENDULA_ANSWER));
+        appleOption.setChecked(savedInstanceState.getBoolean(APPLE_ANSWER));
+        cornelianCherryOption.setChecked(savedInstanceState.getBoolean(CORNELIAN_CHERRY_ANSWER));
+        hawthornOption.setChecked(savedInstanceState.getBoolean(HAWTHORN_ANSWER));
+        carawayOption.setChecked(savedInstanceState.getBoolean(CARAWAY_ANSWER));
+        cuminOption.setChecked(savedInstanceState.getBoolean(CUMIN_ANSWER));
+        estragonOption.setChecked(savedInstanceState.getBoolean(ESTRAGON_ANSWER));
+        //restores answers displayed in free form text
+        String resPlantago = savedInstanceState.getString(PLANTAGO_MEDIA_SPIKE);
+        plantagoView.setText(resPlantago);
+        String resCitrus = savedInstanceState.getString(CITRUS_ANSWER);
+        orangeView.setText(resCitrus);
+        String resCrocus = savedInstanceState.getString(SAFFRON_CROCUS_ANSWER);
+        crocusView.setText(resCrocus);
+    }
+
+    @Override
+    public void onSaveInstanceState(Bundle outstate) {
+        super.onSaveInstanceState(outstate);
+        outstate.putBoolean(NO_BILBERRY_ANSWER, noOption.isChecked());
+        outstate.putBoolean(OLEACEAE_OPTION_ANSWER, oleaceaeOption.isChecked());
+        outstate.putBoolean(ASTERACEAE_OPTION_ANSWER, asteraceaeOption.isChecked());
+        outstate.putBoolean(YES_LYTHRUM_ANSWER, yesOption.isChecked());
+        outstate.putBoolean(FENNEL_ANSWER, fennelOption.isChecked());
+        outstate.putBoolean(DAISY_ANSWER, daisyOption.isChecked());
+        outstate.putBoolean(CALENDULA_ANSWER, calendulaOption.isChecked());
+        outstate.putBoolean(APPLE_ANSWER, appleOption.isChecked());
+        outstate.putBoolean(CORNELIAN_CHERRY_ANSWER, cornelianCherryOption.isChecked());
+        outstate.putBoolean(HAWTHORN_ANSWER, hawthornOption.isChecked());
+        outstate.putBoolean(CARAWAY_ANSWER, carawayOption.isChecked());
+        outstate.putBoolean(CUMIN_ANSWER, cuminOption.isChecked());
+        outstate.putBoolean(ESTRAGON_ANSWER, estragonOption.isChecked());
+        outstate.putString(PLANTAGO_MEDIA_SPIKE, plantagoView.getText().toString());
+        outstate.putString(CITRUS_ANSWER, orangeView.getText().toString());
+        outstate.putString(SAFFRON_CROCUS_ANSWER, crocusView.getText().toString());
+    }
+
 
     /**
      * This method calculate the score for the bilberry quiz
