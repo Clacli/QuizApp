@@ -13,6 +13,28 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    //Declare instance variables that capture from layout radiobuttons views referring to right answer
+    private RadioButton noOption;
+    private RadioButton oleaceaeOption;
+    private RadioButton asteraceaeOption;
+    private RadioButton yesOption;
+    //Declare instance variables that capture from layout checkboxes views referring to Asteraceae question
+    private CheckBox fennelOption;
+    private CheckBox daisyOption;
+    private CheckBox calendulaOption;
+    //Declare instance variables that capture from layout checkboxes views referring to Rosaceae question
+    private CheckBox appleOption;
+    private CheckBox cornelianCherryOption;
+    private CheckBox hawthornOption;
+    //Declare instance variables that capture from layout checkboxes views referring to Carrot question
+    private CheckBox carawayOption;
+    private CheckBox cuminOption;
+    private CheckBox estragonOption;
+    //Declare instance variables that capture from layout editbox free form answer
+    private EditText plantagoView;
+    private EditText orangeView;
+    private EditText crocusView;
+
     private int score = 0;
 
     private OnClickListener mListener = new OnClickListener() {
@@ -38,9 +60,31 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //Capture submit button from layout
-        final Button submitButton = (Button) findViewById(R.id.submit_button);
+        final Button submitButton;
+        submitButton = (Button) findViewById(R.id.submit_button);
         //Register the onClick listener with the implemented button
         submitButton.setOnClickListener(mListener);
+        //Instantiate variables that capture from layout RadioButtons views referring to right answer
+        noOption = (RadioButton) findViewById(R.id.no_radio_button);
+        oleaceaeOption = (RadioButton) findViewById(R.id.oleaceae_radio_button);
+        asteraceaeOption = (RadioButton) findViewById(R.id.asteraceae_radio_button);
+        yesOption = (RadioButton) findViewById(R.id.affirmative_radio_button);
+        //Instantiate variables that capture from layout checkboxes views referring to Asteraceae question
+        fennelOption = (CheckBox) findViewById(R.id.fennel_checkbox);
+        daisyOption = (CheckBox) findViewById(R.id.daisy_checkbox);
+        calendulaOption = (CheckBox) findViewById(R.id.calendula_checkbox);
+        //Instantiate variables that capture from layout checkboxes views referring to Rosaceae question
+        appleOption = (CheckBox) findViewById(R.id.apple_checkbox);
+        cornelianCherryOption = (CheckBox) findViewById(R.id.cornelian_cherry_checkbox);
+        hawthornOption = (CheckBox) findViewById(R.id.hawthorn_checkbox);
+        //Instantiate variables that capture from layout checkboxes views referring to Carrot question
+        carawayOption = (CheckBox) findViewById(R.id.caraway_checkbox);
+        cuminOption = (CheckBox) findViewById(R.id.cumin_checkbox);
+        estragonOption = (CheckBox) findViewById(R.id.estragon_checkbox);
+        //Instantiate variables that capture from layout editbox free form answer
+        plantagoView = (EditText) findViewById(R.id.plantago_edit);
+        orangeView = (EditText) findViewById(R.id.orange_edit);
+        crocusView = (EditText) findViewById(R.id.crocus_edit);
     }
 
     /**
@@ -50,7 +94,6 @@ public class MainActivity extends AppCompatActivity {
      */
     private int calculateScoreForBilberry() {
         // Figure out if the user has checked yes answer
-        RadioButton noOption = findViewById(R.id.no_radio_button);
         boolean isNoAnswerChecked = noOption.isChecked();
         if (isNoAnswerChecked) {
             score = score + 1;
@@ -65,7 +108,6 @@ public class MainActivity extends AppCompatActivity {
      */
     private int calculateScoreForOleaceae() {
         // Figure out if the user has checked Oleaceae answer
-        RadioButton oleaceaeOption = findViewById(R.id.oleaceae_radio_button);
         boolean isOleaceaeChecked = oleaceaeOption.isChecked();
         if (isOleaceaeChecked) {
             score = score + 1;
@@ -80,7 +122,6 @@ public class MainActivity extends AppCompatActivity {
      */
     private int calculateScoreForAhillea() {
         // Figure out if the user has checked Asteraceae answer
-        RadioButton asteraceaeOption = findViewById(R.id.asteraceae_radio_button);
         boolean isAsteraceaeChecked = asteraceaeOption.isChecked();
         if (isAsteraceaeChecked) {
             score = score + 1;
@@ -95,7 +136,6 @@ public class MainActivity extends AppCompatActivity {
      */
     private int calculateScoreForLythrum() {
         // Figure out if the user has checked yes answer
-        RadioButton yesOption = findViewById(R.id.affirmative_radio_button);
         boolean isYesAnswerChecked = yesOption.isChecked();
         if (isYesAnswerChecked) {
             score = score + 1;
@@ -110,13 +150,10 @@ public class MainActivity extends AppCompatActivity {
      */
     private int calulateScoreForAsteraceae() {
         // Figure out if the user has checked fennel answer
-        CheckBox fennelOption = findViewById(R.id.fennel_checkbox);
         boolean isFennelChecked = fennelOption.isChecked();
         // Figure out if the user has checked daisy answer
-        CheckBox daisyOption = findViewById(R.id.daisy_checkbox);
         boolean isDaisyChecked = daisyOption.isChecked();
         //Figure it out if the user has checked calendula answer
-        CheckBox calendulaOption = findViewById(R.id.calendula_checkbox);
         boolean isCalendulaChecked = calendulaOption.isChecked();
         //Check if answer is correct
         if (!isFennelChecked && isDaisyChecked && isCalendulaChecked) {
@@ -132,13 +169,10 @@ public class MainActivity extends AppCompatActivity {
      */
     private int calulateScoreForRosaceae() {
         // Figure out if the user has checked caraway answer
-        CheckBox appleOption = findViewById(R.id.apple_checkbox);
         boolean isAppleChecked = appleOption.isChecked();
         // Figure out if the user has checked cumin answer
-        CheckBox cornelianCherryOption = findViewById(R.id.cornelian_cherry_checkbox);
         boolean isCornelianCherryChecked = cornelianCherryOption.isChecked();
         //Figure it out if the user has checked estragon answer
-        CheckBox hawthornOption = findViewById(R.id.hawthorn_checkbox);
         boolean isHawthornChecked = hawthornOption.isChecked();
         //Check if answer is correct
         if (isAppleChecked && !isCornelianCherryChecked && isHawthornChecked) {
@@ -154,13 +188,10 @@ public class MainActivity extends AppCompatActivity {
      */
     private int calulateScoreForCarrot() {
         // Figure out if the user has checked caraway answer
-        CheckBox carawayOption = findViewById(R.id.caraway_checkbox);
         boolean isCarawayChecked = carawayOption.isChecked();
         // Figure out if the user has checked cumin answer
-        CheckBox cuminOption = findViewById(R.id.cumin_checkbox);
         boolean isCuminChecked = cuminOption.isChecked();
         //Figure it out if the user has checked estragon answer
-        CheckBox estragonOption = findViewById(R.id.estragon_checkbox);
         boolean isEstragonChecked = estragonOption.isChecked();
         //Check if answer is correct
         if (isCarawayChecked && isCuminChecked && !isEstragonChecked) {
@@ -175,10 +206,9 @@ public class MainActivity extends AppCompatActivity {
      * @return score of the quiz
      */
     private int calculateScoreForPlantago() {
-        //Find the answer
-        EditText plantagoView = (EditText) findViewById(R.id.plantago_edit);
         // Set keyboard button Done
         plantagoView.setImeOptions(EditorInfo.IME_ACTION_DONE);
+        //Find the answer to free form text question
         String orangeAnswer = plantagoView.getText().toString();
         //Check if answer is correct to increase score by 1
         if (orangeAnswer.compareTo(getString(R.string.spike)) == 0) {
@@ -193,10 +223,9 @@ public class MainActivity extends AppCompatActivity {
      * @return score of the quiz
      */
     private int calculateScoreForOrange() {
-        //Find the answer
-        EditText orangeView = (EditText) findViewById(R.id.orange_edit);
         // Set keyboard button Done
         orangeView.setImeOptions(EditorInfo.IME_ACTION_DONE);
+        //Find the answer to free form text question
         String orangeAnswer = orangeView.getText().toString();
         //Check if answer is correct to increase score by 1
         if (orangeAnswer.compareTo(getString(R.string.citrus)) == 0) {
@@ -211,10 +240,9 @@ public class MainActivity extends AppCompatActivity {
      * @return score of the quiz
      */
     private int calculateScoreForCrocus() {
-        //Find the answer
-        EditText crocusView = (EditText) findViewById(R.id.crocus_edit);
         // Set keyboard button Done
         crocusView.setImeOptions(EditorInfo.IME_ACTION_DONE);
+        //Find the answer to free form text question
         String crocusAnswer = crocusView.getText().toString();
         //Check if answer is correct to increase score by 1
         if (crocusAnswer.compareTo(getString(R.string.saffron)) == 0) {
