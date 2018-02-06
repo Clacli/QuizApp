@@ -48,7 +48,7 @@
                 android:layout_marginBottom="@dimen/half_vertical_space"
                 android:contentDescription="@string/bilberry_shrub"
                 android:scaleType="centerCrop"
-                android:src="@drawable/bilberry" />
+                android:src="@drawable/mirtillo" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -88,7 +88,7 @@
                 android:layout_marginBottom="@dimen/half_vertical_space"
                 android:contentDescription="@string/fly_on_a_daisy"
                 android:scaleType="centerCrop"
-                android:src="@drawable/daisy" />
+                android:src="@drawable/daisy_daisy" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -136,7 +136,7 @@
                 android:layout_marginBottom="@dimen/half_vertical_space"
                 android:contentDescription="@string/inflorescence_of_plantago_media"
                 android:scaleType="centerCrop"
-                android:src="@drawable/plantago_media" />
+                android:src="@drawable/plantago" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -210,7 +210,7 @@
                 android:layout_marginBottom="@dimen/half_vertical_space"
                 android:contentDescription="@string/rose_hip"
                 android:scaleType="centerCrop"
-                android:src="@drawable/rose_hip" />
+                android:src="@drawable/cinorrodo" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -293,7 +293,7 @@
                 android:layout_marginBottom="@dimen/half_vertical_space"
                 android:contentDescription="@string/flowered_yarrow"
                 android:scaleType="centerCrop"
-                android:src="@drawable/yarrow" />
+                android:src="@drawable/yarrow_top" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -332,7 +332,7 @@
                 android:layout_marginBottom="@dimen/half_vertical_space"
                 android:contentDescription="@string/flowered_carrot"
                 android:scaleType="center"
-                android:src="@drawable/carrot_flowers" />
+                android:src="@drawable/wild_carrot" />
 
             <TextView
                 android:layout_width="match_parent"
