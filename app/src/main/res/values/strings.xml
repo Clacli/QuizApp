@@ -1,4 +1,4 @@
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
     <string name="app_name">Quiz App</string>
     <string name="quiz_header">Botanical Quiz</string>
     <string name="submit_button">Submit</string>
@@ -27,7 +27,7 @@
     <string name="flowered_lemon_tree">flowered lemon tree</string>
     <string name="hawthorn">Crataegus monogyna Jacq. - hawthorn</string>
     <string name="citrus">Citrus</string>
-    <string name="citrus_question">Orange tree, Lemon tree, grapefruit tree and lime tree all belong to the same family <xliff:g example="Rutaceae" id="family_name">(Rutaceae)</xliff:g> and botanical genus. Which one?</string>
+    <string name="citrus_question">Orange tree, Lemon tree, grapefruit tree and lime tree all belong to the same family (Rutaceae) and botanical genus. Which one?</string>
     <string name="flowered_yarrow">flowered yarrow</string>
     <string name="yarrow_question">Which botanical family does the genus Achillea L., yarrow belongs to?</string>
     <string name="yarrow_answer">Asteraceae</string>
