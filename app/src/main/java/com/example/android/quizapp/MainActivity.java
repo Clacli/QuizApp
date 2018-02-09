@@ -29,6 +29,10 @@ public class MainActivity extends AppCompatActivity {
     private static final String PLANTAGO_MEDIA_SPIKE = "spikePlantago";
     private static final String CITRUS_ANSWER = "citrusAnswer";
     private static final String SAFFRON_CROCUS_ANSWER = "saffronCrocus";
+    boolean isNoAnswerChecked;
+    boolean isOleaceaeChecked;
+    boolean isAsteraceaeChecked;
+    boolean isYesAnswerChecked;
     //Declare instance variables that capture from layout radiobuttons views referring to right answer
     private RadioButton noOption;
     private RadioButton oleaceaeOption;
@@ -50,21 +54,24 @@ public class MainActivity extends AppCompatActivity {
     private EditText plantagoView;
     private EditText orangeView;
     private EditText crocusView;
-
     private int score = 0;
 
     private OnClickListener mListener = new OnClickListener() {
         public void onClick(View v) {
-            calculateScoreForBilberry();
+            //calculateScoreForBilberry
+            calculateScoreForSingeChoiceQuiz(isNoAnswerChecked);
+            //calculateScoreForOleaceae
+            calculateScoreForSingeChoiceQuiz(isOleaceaeChecked);
+            //calculateScoreForAhillea
+            calculateScoreForSingeChoiceQuiz(isAsteraceaeChecked);
+            //calculateScoreForLythrum
+            calculateScoreForSingeChoiceQuiz(isYesAnswerChecked);
             calulateScoreForAsteraceae();
             calculateScoreForPlantago();
-            calculateScoreForOleaceae();
             calulateScoreForRosaceae();
             calculateScoreForOrange();
-            calculateScoreForAhillea();
             calulateScoreForCarrot();
             calculateScoreForCrocus();
-            calculateScoreForLythrum();
             Toast.makeText(getApplicationContext(), createMessage(score), Toast.LENGTH_LONG).show();
             score = 0;
         }
@@ -101,6 +108,11 @@ public class MainActivity extends AppCompatActivity {
         plantagoView = (EditText) findViewById(R.id.plantago_edit);
         orangeView = (EditText) findViewById(R.id.orange_edit);
         crocusView = (EditText) findViewById(R.id.crocus_edit);
+
+        isNoAnswerChecked = noOption.isChecked();
+        isOleaceaeChecked = oleaceaeOption.isChecked();
+        isAsteraceaeChecked = asteraceaeOption.isChecked();
+        isYesAnswerChecked = yesOption.isChecked();
     }
 
     @Override
@@ -149,63 +161,17 @@ public class MainActivity extends AppCompatActivity {
         outstate.putString(SAFFRON_CROCUS_ANSWER, crocusView.getText().toString());
     }
 
-
     /**
-     * This method calculate the score for the bilberry quiz
+     * General method which calculate the score for single choice quiz
      *
-     * @return score of the quiz
+     * @return score
      */
-    private int calculateScoreForBilberry() {
-        // Figure out if the user has checked yes answer
-        boolean isNoAnswerChecked = noOption.isChecked();
-        if (isNoAnswerChecked) {
+    private int calculateScoreForSingeChoiceQuiz(boolean option) {
+        if (option = true) {
             score = score + 1;
         }
         return score;
     }
-
-    /**
-     * This method calculate the score for the Oleaceae quiz
-     *
-     * @return score of the quiz
-     */
-    private int calculateScoreForOleaceae() {
-        // Figure out if the user has checked Oleaceae answer
-        boolean isOleaceaeChecked = oleaceaeOption.isChecked();
-        if (isOleaceaeChecked) {
-            score = score + 1;
-        }
-        return score;
-    }
-
-    /**
-     * This method calculate the score for the Achillea quiz
-     *
-     * @return score of the quiz
-     */
-    private int calculateScoreForAhillea() {
-        // Figure out if the user has checked Asteraceae answer
-        boolean isAsteraceaeChecked = asteraceaeOption.isChecked();
-        if (isAsteraceaeChecked) {
-            score = score + 1;
-        }
-        return score;
-    }
-
-    /**
-     * This method calculate the score for the Lythrum quiz
-     *
-     * @return score of the quiz
-     */
-    private int calculateScoreForLythrum() {
-        // Figure out if the user has checked yes answer
-        boolean isYesAnswerChecked = yesOption.isChecked();
-        if (isYesAnswerChecked) {
-            score = score + 1;
-        }
-        return score;
-    }
-
     /**
      * This method calculate the score for the Rosaceae quiz
      *
