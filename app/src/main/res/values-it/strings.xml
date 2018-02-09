@@ -1,4 +1,4 @@
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
     <string name="app_name">Quiz App</string>
     <string name="quiz_header">Quiz Botanico</string>
     <string name="submit_button">Invia</string>
@@ -25,10 +25,10 @@
     <string name="cornelian_cherry_answer">Cornus mas L. - corniolo</string>
     <string name="hawthorn">Crataegus monogyna Jacq. - biancospino</string>
     <string name="flowered_lemon_tree">limone in fiore</string>
-    <string name="citrus_question">L\'arancio, il limone, l\'albero del pompelmo e quello del lime appartengono tutti alla stessa famiglia <xliff:g example="Rutaceae" id="family_name">(Rutaceae)</xliff:g> e allo stesso genere botanico. Quale?</string>
+    <string name="citrus_question">L\'arancio, il limone, l\'albero del pompelmo e quello del lime appartengono tutti alla stessa famiglia (Rutaceae) e allo stesso genere botanico. Quale?</string>
     <string name="citrus">Citrus</string>
     <string name="flowered_yarrow">fiori di achillea</string>
-    <string name="yarrow_question">A quale famiglia botanica appartiene il genere Achillea L., yarrow?</string>
+    <string name="yarrow_question">A quale famiglia botanica appartiene il genere Achillea L.?</string>
     <string name="yarrow_answer">Asteraceae</string>
     <string name="campanulaceae_answer">Campanulaceae</string>
     <string name="wild_carrot_question">La carota selvatica, Daucus carota L., appartiene alla famiglia delle Apiaceae. Quali delle seguenti piante appartiene alla stessa famiglia?</string>
@@ -37,7 +37,7 @@
     <string name="estragon_answer">Artemisia dracunculus L. - dragoncello</string>
     <string name="crocus_question">Il Crocus sativus L. (Iridaceae) viene coltivato da migliaia di anni per ottenere una spezia molto preziosa. Quale?</string>
     <string name="flowered_lythrum_salicaria">Lythrum salicaria fiorita</string>
-    <string name="lythrum_question">Salcerella è uno dei nomi comuni del Lythrum salicaria L. <xliff:g example="(Lythraceae)" id="family_name">(Lythraceae)</xliff:g>?</string>
+    <string name="lythrum_question">Salcerella è uno dei nomi comuni del Lythrum salicaria L. (Lythraceae)</string>
     <string name="saffron">Zafferano</string>
     <string name="score_0">Non hai dato risposte corrette. Il tuo punteggio è: %d</string>
     <string name="score_1">Hai dato una sola risposta corretta.\nIl tuo punteggio è:\u0020</string>
