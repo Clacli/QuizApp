@@ -2,6 +2,7 @@ package com.example.android.quizapp;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.inputmethod.EditorInfo;
@@ -29,10 +30,6 @@ public class MainActivity extends AppCompatActivity {
     private static final String PLANTAGO_MEDIA_SPIKE = "spikePlantago";
     private static final String CITRUS_ANSWER = "citrusAnswer";
     private static final String SAFFRON_CROCUS_ANSWER = "saffronCrocus";
-    boolean isNoAnswerChecked;
-    boolean isOleaceaeChecked;
-    boolean isAsteraceaeChecked;
-    boolean isYesAnswerChecked;
     //Declare instance variables that capture from layout radiobuttons views referring to right answer
     private RadioButton noOption;
     private RadioButton oleaceaeOption;
@@ -50,22 +47,25 @@ public class MainActivity extends AppCompatActivity {
     private CheckBox carawayOption;
     private CheckBox cuminOption;
     private CheckBox estragonOption;
-    //Declare instance variables that capture from layout editbox free form answer
+    //Declare instance variables that capture from layout edittext free form answer
     private EditText plantagoView;
     private EditText orangeView;
     private EditText crocusView;
+
+
     private int score = 0;
 
     private OnClickListener mListener = new OnClickListener() {
         public void onClick(View v) {
             //calculateScoreForBilberry
-            calculateScoreForSingeChoiceQuiz(isNoAnswerChecked);
+            calculateScoreForBilberry();
+            Log.v("MainActivity", "score is: " + score);
             //calculateScoreForOleaceae
-            calculateScoreForSingeChoiceQuiz(isOleaceaeChecked);
-            //calculateScoreForAhillea
-            calculateScoreForSingeChoiceQuiz(isAsteraceaeChecked);
+            calculateScoreForOleaceae();
+            //calculateScoreForAchillea
+            calculateScoreForAchillea();
             //calculateScoreForLythrum
-            calculateScoreForSingeChoiceQuiz(isYesAnswerChecked);
+            calculateScoreForLythrum();
             calulateScoreForAsteraceae();
             calculateScoreForPlantago();
             calulateScoreForRosaceae();
@@ -109,10 +109,7 @@ public class MainActivity extends AppCompatActivity {
         orangeView = (EditText) findViewById(R.id.orange_edit);
         crocusView = (EditText) findViewById(R.id.crocus_edit);
 
-        isNoAnswerChecked = noOption.isChecked();
-        isOleaceaeChecked = oleaceaeOption.isChecked();
-        isAsteraceaeChecked = asteraceaeOption.isChecked();
-        isYesAnswerChecked = yesOption.isChecked();
+
     }
 
     @Override
@@ -140,6 +137,7 @@ public class MainActivity extends AppCompatActivity {
         crocusView.setText(resCrocus);
     }
 
+
     @Override
     public void onSaveInstanceState(Bundle outstate) {
         super.onSaveInstanceState(outstate);
@@ -162,16 +160,57 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * General method which calculate the score for single choice quiz
+     * Calculate the score for bilberry - myrtle question
      *
      * @return score
      */
-    private int calculateScoreForSingeChoiceQuiz(boolean option) {
-        if (option = true) {
-            score = score + 1;
+    private int calculateScoreForBilberry() {
+        boolean isNoAnswerChecked = noOption.isChecked();
+        if (isNoAnswerChecked) {
+            score += 1;
         }
         return score;
     }
+
+    /**
+     * Calculate the score Oleaceae question
+     *
+     * @return score
+     */
+    private int calculateScoreForOleaceae() {
+        boolean isOleaceaeChecked = oleaceaeOption.isChecked();
+        if (isOleaceaeChecked) {
+            score += 1;
+        }
+        return score;
+    }
+
+    /**
+     * General method which calculate the score for Achillea question
+     *
+     * @return score
+     */
+    private int calculateScoreForAchillea() {
+        boolean isAsteraceaeChecked = asteraceaeOption.isChecked();
+        if (isAsteraceaeChecked) {
+            score += 1;
+        }
+        return score;
+    }
+
+    /**
+     * General method which calculate the score for Lythrum question
+     *
+     * @return score
+     */
+    private int calculateScoreForLythrum() {
+        boolean isYesAnswerChecked = yesOption.isChecked();
+        if (isYesAnswerChecked) {
+            score += 1;
+        }
+        return score;
+    }
+
     /**
      * This method calculate the score for the Rosaceae quiz
      *
@@ -238,9 +277,9 @@ public class MainActivity extends AppCompatActivity {
         // Set keyboard button Done
         plantagoView.setImeOptions(EditorInfo.IME_ACTION_DONE);
         //Find the answer to free form text question
-        String orangeAnswer = plantagoView.getText().toString();
+        String plantagoAnswer = plantagoView.getText().toString();
         //Check if answer is correct to increase score by 1
-        if (orangeAnswer.compareTo(getString(R.string.spike)) == 0) {
+        if (plantagoAnswer.compareTo(getString(R.string.spike)) == 0) {
             score = score + 1;
         }
         return score;
