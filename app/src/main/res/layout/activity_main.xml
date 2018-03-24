@@ -48,7 +48,7 @@
                 android:layout_marginBottom="@dimen/half_vertical_space"
                 android:contentDescription="@string/bilberry_shrub"
                 android:scaleType="centerCrop"
-                android:src="@drawable/mirtillo" />
+                android:src="@drawable/bilberry" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -88,7 +88,7 @@
                 android:layout_marginBottom="@dimen/half_vertical_space"
                 android:contentDescription="@string/fly_on_a_daisy"
                 android:scaleType="centerCrop"
-                android:src="@drawable/daisy_daisy" />
+                android:src="@drawable/daisy" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -170,7 +170,7 @@
                 android:layout_marginBottom="@dimen/half_vertical_space"
                 android:contentDescription="@string/olive_branches"
                 android:scaleType="centerCrop"
-                android:src="@drawable/olive" />
+                android:src="@drawable/olivo" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -258,7 +258,7 @@
                 android:layout_marginBottom="@dimen/half_vertical_space"
                 android:contentDescription="@string/flowered_lemon_tree"
                 android:scaleType="centerCrop"
-                android:src="@drawable/lemon_flower" />
+                android:src="@drawable/lemon" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -293,7 +293,7 @@
                 android:layout_marginBottom="@dimen/half_vertical_space"
                 android:contentDescription="@string/flowered_yarrow"
                 android:scaleType="centerCrop"
-                android:src="@drawable/yarrow_top" />
+                android:src="@drawable/achillea" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -331,8 +331,8 @@
                 android:layout_height="@dimen/port_picture_height"
                 android:layout_marginBottom="@dimen/half_vertical_space"
                 android:contentDescription="@string/flowered_carrot"
-                android:scaleType="centerCrop"
-                android:src="@drawable/wild_carrot" />
+                android:scaleType="center"
+                android:src="@drawable/carrot_flowers" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -379,7 +379,7 @@
                 android:layout_marginBottom="@dimen/half_vertical_space"
                 android:contentDescription="@string/pistils_of_crocus"
                 android:scaleType="centerCrop"
-                android:src="@drawable/saffron_sp" />
+                android:src="@drawable/saffron" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -438,7 +438,6 @@
                 android:text="@string/negative_answer"
                 android:textSize="@dimen/quiz_text" />
         </RadioGroup>
-
 
         <Button
             android:id="@+id/submit_button"
