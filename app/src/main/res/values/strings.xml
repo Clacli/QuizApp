@@ -4,41 +4,41 @@
     <string name="submit_button">Submit</string>
     <string name="quiz_subheader">Plants too have  names and families! Test your knowledge</string>
     <string name="bilberry_shrub">a bilberry shrub</string>
-    <string name="bilberry_question_text">Do bilberry, <xliff:g example="Vaccinium myrtillus L." id="nameOfBilberry">Vaccinium myrtillus L.</xliff:g>, and common myrtle, <xliff:g name="nameOfMyrtle" example="Myrtus communis L.">Myrtus communis L.</xliff:g>, belong to the same family?</string>
+    <string name="bilberry_question_text">Do bilberry, <xliff:g example="Vaccinium myrtillus L." id="nameOfBilberry"><i>Vaccinium myrtillus</i> L.</xliff:g>, and common myrtle, <xliff:g name="nameOfMyrtle" example="Myrtus communis L."><i>Myrtus communis</i> L.</xliff:g>, belong to the same family?</string>
     <string name="affirmative_answer">Yes</string>
     <string name="negative_answer">No</string>
-    <string name="cuminum_answer"><xliff:g example="Cuminum cyminum L." id="nameOfCumin">Cuminum cyminum L.</xliff:g> - cumin</string>
+    <string name="cuminum_answer"><xliff:g example="Cuminum cyminum L." id="nameOfCumin"><i>Cuminum cyminum</i> L.</xliff:g> - cumin</string>
     <string name="asteraceae_question">Which of these plants belong to the <xliff:g example="Asteraceae" id="familyAsteraceae">Asteraceae</xliff:g> family?</string>
-    <string name="foeniculum_vulgare_fennel"><xliff:g name="nameOfFennel" example="Foeniculum vulgare Mill.">Foeniculum vulgare Mill.</xliff:g> - fennel</string>
+    <string name="foeniculum_vulgare_fennel"><xliff:g name="nameOfFennel" example="Foeniculum vulgare Mill."><i>Foeniculum vulgare</i> Mill.</xliff:g> - fennel</string>
     <string name="fly_on_a_daisy">a fly on a daisy</string>
-    <string name="daisy_answer"><xliff:g name="nameOfDaisy" example="Bellis perennis L.">Bellis perennis L.</xliff:g> - daisy</string>
-    <string name="marigold_answer"><xliff:g name="nameOfMarygold" example="Calendula officinalis L.">Calendula officinalis L.</xliff:g> - marigold</string>
+    <string name="daisy_answer"><xliff:g name="nameOfDaisy" example="Bellis perennis L."><i>Bellis perennis</i> L.</xliff:g> - daisy</string>
+    <string name="marigold_answer"><xliff:g name="nameOfMarygold" example="Calendula officinalis L."><i>Calendula officinalis</i> L.</xliff:g> - marigold</string>
     <string name="inflorescence_of_plantago_media">inflorescence of <xliff:g name="hoaryPlantago" example="plantago media">plantago media</xliff:g></string>
-    <string name="plantago_question"><xliff:g name="nameOfHoaryPlantain" example="Plantago media L.">Plantago media L.</xliff:g>, hoary plantain, belongs to the <xliff:g example="Plantaginaceae" id="familyPlantaginaceae">Plantaginaceae</xliff:g> family. What is the name of its inflorescence?</string>
+    <string name="plantago_question"><xliff:g name="nameOfHoaryPlantain" example="Plantago media L."><i>Plantago media</i> L.</xliff:g>, hoary plantain, belongs to the <xliff:g example="Plantaginaceae" id="familyPlantaginaceae">Plantaginaceae</xliff:g> family. What is the name of its inflorescence?</string>
     <string name="answer_hint">Please enter your answer here</string>
     <string name="spike">Spike</string>
-    <string name="olive_family_question">What botanical family do <xliff:g name="nameOfOliveTree" example="Olea europaea L.">Olea europaea L.</xliff:g> (olive tree), <xliff:g name="nameOfEuropaeanAsh" example="Fraxinus excelsior L.">Fraxinus excelsior L.</xliff:g> (Europaean ash) and <xliff:g name="nameOfMannaAsh" example="Fraxinus ornus L.">Fraxinus ornus L.</xliff:g> (manna ash) belong to?</string>
+    <string name="olive_family_question">What botanical family do <xliff:g name="nameOfOliveTree" example="Olea europaea L."><i>Olea europaea</i> L.</xliff:g> (olive tree), <xliff:g name="nameOfEuropaeanAsh" example="Fraxinus excelsior L."><i>Fraxinus excelsior</i> L.</xliff:g> (Europaean ash) and <xliff:g name="nameOfMannaAsh" example="Fraxinus ornus L."><i>Fraxinus ornus</i> L.</xliff:g> (manna ash) belong to?</string>
     <string name="oleaceae"><xliff:g example="Oleaceae" id="familyOleaceae">Oleaceae</xliff:g></string>
     <string name="fraxinaceae"><xliff:g example="Fraxinaceae" id="fakeFamilyFraxinaceae">Fraxinaceae</xliff:g></string>
     <string name="rose_hip">rose hip</string>
     <string name="rosaceae_question">Rose belongs to the botanical family of <xliff:g example="Rosaceae" id="fakeFamilyRosaceae">Rosaceae</xliff:g>. Which one or ones of the following belong to the same family?</string>
-    <string name="apple"><xliff:g name="nameOfAppleTree" example="Malus domestica Borkh.">Malus domestica Borkh.</xliff:g> - apple tree</string>
-    <string name="cornelian_cherry_answer"><xliff:g name="nameOfCornelianCherryTree" example="Cornus mas L.">Cornus mas L.</xliff:g> - cornelian cherry</string>
+    <string name="apple"><xliff:g name="nameOfAppleTree" example="Malus domestica Borkh."><i>Malus domestica</i> Borkh.</xliff:g> - apple tree</string>
+    <string name="cornelian_cherry_answer"><xliff:g name="nameOfCornelianCherryTree" example="Cornus mas L."><i>Cornus mas</i> L.</xliff:g> - cornelian cherry</string>
     <string name="flowered_lemon_tree">flowered lemon tree</string>
-    <string name="hawthorn"><xliff:g name="nameOfHawthorneTree" example="Crataegus monogyna Jacq.">Crataegus monogyna Jacq.</xliff:g> - hawthorn</string>
+    <string name="hawthorn"><xliff:g name="nameOfHawthorneTree" example="Crataegus monogyna Jacq."><i>Crataegus monogyna</i> Jacq.</xliff:g> - hawthorn</string>
     <string name="citrus"><xliff:g name="genusCitrus" example="Citrus">Citrus</xliff:g></string>
     <string name="citrus_question">Orange tree, Lemon tree, grapefruit tree and lime tree all belong to the same family (<xliff:g example="Rutaceae" id="familyRutaceae">Rutaceae</xliff:g>) and botanical genus. Which one?</string>
     <string name="flowered_yarrow">flowered yarrow</string>
-    <string name="yarrow_question">Which botanical family does the genus <xliff:g name="genusAchillea" example="Achillea L.">Achillea L.</xliff:g>, yarrow belongs to?</string>
+    <string name="yarrow_question">Which botanical family does the genus <xliff:g name="genusAchillea" example="Achillea L."><i>Achillea</i> L.</xliff:g>, yarrow belongs to?</string>
     <string name="yarrow_answer"><xliff:g example="Asteraceae" id="familyAsteraceae">Asteraceae</xliff:g></string>
     <string name="campanulaceae_answer"><xliff:g example="Asteraceae" id="familyAsteraceae">Campanulaceae</xliff:g></string>
     <string name="flowered_carrot">flowered carrots</string>
-    <string name="wild_carrot_question">Wild carrot, <xliff:g example="Daucus carota L" id="nameOfCarrot">Daucus carota L.</xliff:g>, belongs to the <xliff:g example="Apiaceae" id="familyApiaceae">Apiaceae</xliff:g> family. Which of the following plants belong to the same family?</string>
-    <string name="caraway_answer"><xliff:g example="Carum carvi L." id="nameOfCaraway">Carum carvi L.</xliff:g> - caraway</string>
-    <string name="estragon_answer"><xliff:g example="Artemisia dracunculus L." id="nameOfEstragon">Artemisia dracunculus L.</xliff:g> - estragon</string>
-    <string name="crocus_question"><xliff:g example="Crocus sativus L." id="nameOfSafftonHerb">Crocus sativus L.</xliff:g> (<xliff:g example="Iridaceae" id="familyIridaceae">Iridaceae</xliff:g>) has been grown by men for thousands of years in order to obtain a very special spice. Which one?</string>
+    <string name="wild_carrot_question">Wild carrot, <xliff:g example="Daucus carota L" id="nameOfCarrot"><i>Daucus carota</i> L.</xliff:g>, belongs to the <xliff:g example="Apiaceae" id="familyApiaceae">Apiaceae</xliff:g> family. Which of the following plants belong to the same family?</string>
+    <string name="caraway_answer"><xliff:g example="Carum carvi L." id="nameOfCaraway"><i>Carum carvi</i> L.</xliff:g> - caraway</string>
+    <string name="estragon_answer"><xliff:g example="Artemisia dracunculus L." id="nameOfEstragon"><i>Artemisia dracunculus</i> L.</xliff:g> - estragon</string>
+    <string name="crocus_question"><xliff:g example="Crocus sativus L." id="nameOfSafftonHerb"><i>Crocus sativus</i> L.</xliff:g> (<xliff:g example="Iridaceae" id="familyIridaceae">Iridaceae</xliff:g>) has been grown by men for thousands of years in order to obtain a very special spice. Which one?</string>
     <string name="flowered_lythrum_salicaria"><xliff:g example="Lythrum salicaria" id="salcerellaFlowered">Lythrum salicaria</xliff:g> in flower</string>
-    <string name="lythrum_question">Is purple loosestrife one of the common name of <xliff:g example="Lythrum salicaria L." id="nameOfPurpleLoosestrife">Lythrum salicaria L.</xliff:g> (<xliff:g example="Lythraceae" id="familyLythraceae">Lythraceae</xliff:g>)?</string>
+    <string name="lythrum_question">Is purple loosestrife one of the common name of <xliff:g example="Lythrum salicaria L." id="nameOfPurpleLoosestrife"><i>Lythrum salicaria</i> L.</xliff:g> (<xliff:g example="Lythraceae" id="familyLythraceae">Lythraceae</xliff:g>)?</string>
     <string name="saffron">Saffron</string>
     <string name="score_0">You couldn\'t give any correct answer. Your score is: %d</string>
     <string name="score_1">You got only one answer right.\nYour score is:\u0020</string>
