@@ -2,42 +2,42 @@
     <string name="app_name">Quiz App</string>
     <string name="quiz_header">Quiz Botanico</string>
     <string name="submit_button">Invia</string>
-    <string name="quiz_subheader">Anche le piante hanno nomi e famiglie! Metti alla prova le tue conoscenze</string>
+    <string name="quiz_subheader">Anche le piante hanno un nome e una famiglia! Metti alla prova le tue conoscenze</string>
     <string name="bilberry_shrub">un arbusto di mirtillo</string>
-    <string name="bilberry_question_text">Il mirtillo, Vaccinium myrtillus L., e il mirto, Myrtus communis L., appartengono alla stessa famiglia?</string>
+    <string name="bilberry_question_text">Il mirtillo, <xliff:g example="Vaccinium myrtillus L." id="nameOfBilberry">Vaccinium myrtillus L.</xliff:g>, e il mirto, <xliff:g name="nameOfMyrtle" example="Myrtus communis L.">Myrtus communis L.</xliff:g>, appartengono alla stessa famiglia?</string>
     <string name="affirmative_answer">Si</string>
     <string name="fly_on_a_daisy">una mosca su una margherita</string>
     <string name="negative_answer">No</string>
-    <string name="asteraceae_question">Quali tra queste piante appartiene alla famiglia delle Asteraceae?</string>
-    <string name="foeniculum_vulgare_fennel">Foeniculum vulgare Mill. - finocchio</string>
-    <string name="daisy_answer">Bellis perennis L. - margherita</string>
-    <string name="inflorescence_of_plantago_media">infiorescenza di plantago media</string>
-    <string name="marigold_answer">Calendula officinalis L. - calendula</string>
-    <string name="plantago_question">La Plantago media L., piantaggine pelosa, appartiene alla famiglia delle Plantaginaceae. Come si chiama la sua infiorescenza?</string>
+    <string name="asteraceae_question">Quali tra queste piante appartiene alla famiglia delle <xliff:g example="Asteraceae" id="familyAsteraceae">Asteraceae</xliff:g>?</string>
+    <string name="foeniculum_vulgare_fennel"><xliff:g name="nameOfFennel" example="Foeniculum vulgare Mill.">Foeniculum vulgare Mill.</xliff:g> - finocchio</string>
+    <string name="daisy_answer"><xliff:g name="nameOfDaisy" example="Bellis perennis L.">Bellis perennis L.</xliff:g> - margherita</string>
+    <string name="inflorescence_of_plantago_media">infiorescenza di <xliff:g name="hoaryPlantago" example="plantago media">plantago media</xliff:g></string>
+    <string name="marigold_answer"><xliff:g name="nameOfMarygold" example="Calendula officinalis L.">Calendula officinalis L.</xliff:g> - calendula</string>
+    <string name="plantago_question">La <xliff:g name="nameOfHoaryPlantain" example="Plantago media L.">Plantago media L.</xliff:g>, piantaggine pelosa, appartiene alla famiglia delle <xliff:g example="Plantaginaceae" id="familyPlantaginaceae">Plantaginaceae</xliff:g>. Come si chiama la sua infiorescenza?</string>
     <string name="answer_hint">Rispondi qui</string>
     <string name="spike">Spiga</string>
-    <string name="olive_family_question">A che famiglia botanica appartengono l\'Olea europaea L. (olivo), il Fraxinus excelsior L. (frassino) e il Fraxinus ornus L. (orniello)?</string>
-    <string name="oleaceae">Oleaceae</string>
-    <string name="fraxinaceae">Fraxinaceae</string>
+    <string name="olive_family_question">A che famiglia botanica appartengono l\'<xliff:g name="nameOfOliveTree" example="Olea europaea L.">Olea europaea L.</xliff:g> (olivo), il <xliff:g name="nameOfEuropaeanAsh" example="Fraxinus excelsior L.">Fraxinus excelsior L.</xliff:g> (frassino) e il <xliff:g name="nameOfMannaAsh" example="Fraxinus ornus L.">Fraxinus ornus L.</xliff:g> (orniello)?</string>
+    <string name="oleaceae"><xliff:g example="Oleaceae" id="familyOleaceae">Oleaceae</xliff:g></string>
+    <string name="fraxinaceae"><xliff:g example="Fraxinaceae" id="fakeFamilyFraxinaceae">Fraxinaceae</xliff:g></string>
     <string name="rose_hip">cinorrodo</string>
-    <string name="rosaceae_question">La rosa appartiene alla famiglia botanica delle Rosaceae. Quale o quali delle seguenti piante appartiene alla stessa famiglia?</string>
-    <string name="apple">Malus domestica Borkh. - melo</string>
-    <string name="cornelian_cherry_answer">Cornus mas L. - corniolo</string>
-    <string name="hawthorn">Crataegus monogyna Jacq. - biancospino</string>
+    <string name="rosaceae_question">La rosa appartiene alla famiglia botanica delle <xliff:g example="Rosaceae" id="fakeFamilyRosaceae">Rosaceae</xliff:g>. Quale o quali delle seguenti piante appartiene alla stessa famiglia?</string>
+    <string name="apple"><xliff:g name="nameOfAppleTree" example="Malus domestica Borkh.">Malus domestica Borkh.</xliff:g> - melo</string>
+    <string name="cornelian_cherry_answer"><xliff:g name="nameOfCornelianCherryTree" example="Cornus mas L.">Cornus mas L.</xliff:g> - corniolo</string>
+    <string name="hawthorn"><xliff:g name="nameOfHawthorneTree" example="Crataegus monogyna Jacq.">Crataegus monogyna Jacq.</xliff:g> - biancospino</string>
     <string name="flowered_lemon_tree">limone in fiore</string>
-    <string name="citrus_question">L\'arancio, il limone, l\'albero del pompelmo e quello del lime appartengono tutti alla stessa famiglia <xliff:g example="Rutaceae" id="family_name">(Rutaceae)</xliff:g> e allo stesso genere botanico. Quale?</string>
-    <string name="citrus">Citrus</string>
+    <string name="citrus_question">L\'arancio, il limone, l\'albero del pompelmo e quello del lime appartengono tutti alla stessa famiglia (<xliff:g example="Rutaceae" id="familyRutaceae">Rutaceae</xliff:g>) e allo stesso genere botanico. Quale?</string>
+    <string name="citrus"><xliff:g name="genusCitrus" example="Citrus">Citrus</xliff:g></string>
     <string name="flowered_yarrow">fiori di achillea</string>
-    <string name="yarrow_question">A quale famiglia botanica appartiene il genere Achillea L., yarrow?</string>
-    <string name="yarrow_answer">Asteraceae</string>
-    <string name="campanulaceae_answer">Campanulaceae</string>
-    <string name="wild_carrot_question">La carota selvatica, Daucus carota L., appartiene alla famiglia delle Apiaceae. Quali delle seguenti piante appartiene alla stessa famiglia?</string>
-    <string name="cuminum_answer">Cuminum cyminum L.- cumino</string>
-    <string name="caraway_answer">Carum carvi L. - carvi</string>
-    <string name="estragon_answer">Artemisia dracunculus L. - dragoncello</string>
-    <string name="crocus_question">Il Crocus sativus L. (Iridaceae) viene coltivato da migliaia di anni per ottenere una spezia molto preziosa. Quale?</string>
-    <string name="flowered_lythrum_salicaria">Lythrum salicaria fiorita</string>
-    <string name="lythrum_question">Salcerella è uno dei nomi comuni del Lythrum salicaria L. <xliff:g example="(Lythraceae)" id="family_name">(Lythraceae)</xliff:g>?</string>
+    <string name="yarrow_question">A quale famiglia botanica appartiene il genere <xliff:g name="genusAchillea" example="Achillea L.">Achillea L.</xliff:g>, achillea?</string>
+    <string name="yarrow_answer"><xliff:g example="Asteraceae" id="familyAsteraceae">Asteraceae</xliff:g></string>
+    <string name="campanulaceae_answer"><xliff:g example="Asteraceae" id="familyAsteraceae">Campanulaceae</xliff:g></string>
+    <string name="wild_carrot_question">La carota selvatica, <xliff:g example="Daucus carota L" id="nameOfCarrot">Daucus carota L.</xliff:g>, appartiene alla famiglia delle <xliff:g example="Apiaceae" id="familyApiaceae">Apiaceae</xliff:g>. Quali delle seguenti piante appartiene alla stessa famiglia?</string>
+    <string name="cuminum_answer"><xliff:g example="Cuminum cyminum L." id="nameOfCumin">Cuminum cyminum L.</xliff:g> - cumino</string>
+    <string name="caraway_answer"><xliff:g example="Carum carvi L." id="nameOfCaraway">Carum carvi L.</xliff:g> - carvi</string>
+    <string name="estragon_answer"><xliff:g example="Artemisia dracunculus L." id="nameOfEstragon">Artemisia dracunculus L.</xliff:g> - dragoncello</string>
+    <string name="crocus_question">Il <xliff:g example="Crocus sativus L." id="nameOfSafftonHerb">Crocus sativus L.</xliff:g> (<xliff:g example="Iridaceae" id="familyIridaceae">Iridaceae</xliff:g>) viene coltivato da migliaia di anni per ottenere una spezia molto preziosa. Quale?</string>
+    <string name="flowered_lythrum_salicaria">infliorescenza di <xliff:g example="Lythrum salicaria" id="salcerellaFlowered">Lythrum salicaria</xliff:g></string>
+    <string name="lythrum_question">Salcerella è uno dei nomi comuni del <xliff:g example="Lythrum salicaria L." id="nameOfPurpleLoosestrife">Lythrum salicaria L.</xliff:g> <xliff:g example="Lythraceae" id="familyLythraceae">, Lythraceae</xliff:g>?</string>
     <string name="saffron">Zafferano</string>
     <string name="score_0">Non hai dato risposte corrette. Il tuo punteggio è: %d</string>
     <string name="score_1">Hai dato una sola risposta corretta.\nIl tuo punteggio è:\u0020</string>
