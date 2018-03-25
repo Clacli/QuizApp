@@ -20,3 +20,7 @@ https://www.imagemagick.org/script/download.php
 This q/a on Stack Overflow helped me to do it:
 Recommendation for compressing JPG files with ImageMagick
 https://stackoverflow.com/questions/7261855/recommendation-for-compressing-jpg-files-with-imagemagick
+
+I integrated Butter Knife library to the code to for easy initialization by eliminating the use of findViewById.
+Butter Knife Copyright 2013 Jake Wharton
+http://jakewharton.github.io/butterknife/

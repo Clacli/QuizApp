@@ -11,6 +11,9 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Toast;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
 public class MainActivity extends AppCompatActivity {
 
     private static final String NO_BILBERRY_ANSWER = "noAnswer";
@@ -29,30 +32,48 @@ public class MainActivity extends AppCompatActivity {
     private static final String PLANTAGO_MEDIA_SPIKE = "spikePlantago";
     private static final String CITRUS_ANSWER = "citrusAnswer";
     private static final String SAFFRON_CROCUS_ANSWER = "saffronCrocus";
-    //Declare instance variables that capture from layout radiobuttons views referring to right answer
-    private RadioButton noOption;
-    private RadioButton oleaceaeOption;
-    private RadioButton asteraceaeOption;
-    private RadioButton yesOption;
-    //Declare instance variables that capture from layout checkboxes views referring to Asteraceae question
-    private CheckBox fennelOption;
-    private CheckBox daisyOption;
-    private CheckBox calendulaOption;
-    //Declare instance variables that capture from layout checkboxes views referring to Rosaceae question
-    private CheckBox appleOption;
-    private CheckBox cornelianCherryOption;
-    private CheckBox hawthornOption;
-    //Declare instance variables that capture from layout checkboxes views referring to Carrot question
-    private CheckBox carawayOption;
-    private CheckBox cuminOption;
-    private CheckBox estragonOption;
-    //Declare instance variables that capture from layout editbox free form answer
-    private EditText plantagoView;
-    private EditText orangeView;
-    private EditText crocusView;
+    //Bind views with Butter Knife and cast views in layout
+    //RadioButtons
+    @BindView(R.id.no_radio_button)
+    RadioButton noOption;
+    @BindView(R.id.oleaceae_radio_button)
+    RadioButton oleaceaeOption;
+    @BindView(R.id.asteraceae_radio_button)
+    RadioButton asteraceaeOption;
+    @BindView(R.id.affirmative_radio_button)
+    RadioButton yesOption;
+    //CheckBoxes referring to Asteraceae question
+    @BindView(R.id.fennel_checkbox)
+    CheckBox fennelOption;
+    @BindView(R.id.daisy_checkbox)
+    CheckBox daisyOption;
+    @BindView(R.id.calendula_checkbox)
+    CheckBox calendulaOption;
+    //CheckBoxes referring to Rosaceae question
+    @BindView(R.id.apple_checkbox)
+    CheckBox appleOption;
+    @BindView(R.id.cornelian_cherry_checkbox)
+    CheckBox cornelianCherryOption;
+    @BindView(R.id.hawthorn_checkbox)
+    CheckBox hawthornOption;
+    //CheckBoxes referring to Wild Carrot question
+    @BindView(R.id.caraway_checkbox)
+    CheckBox carawayOption;
+    @BindView(R.id.cumin_checkbox)
+    CheckBox cuminOption;
+    @BindView(R.id.estragon_checkbox)
+    CheckBox estragonOption;
+    //EditText
+    @BindView(R.id.plantago_edit)
+    EditText plantagoView;
+    @BindView(R.id.orange_edit)
+    EditText orangeView;
+    @BindView(R.id.crocus_edit)
+    EditText crocusView;
 
-    private int score = 0;
+    private int score;
 
+    // Create an anonymous implementation of OnClickListener
     private OnClickListener mListener = new OnClickListener() {
         public void onClick(View v) {
             calculateScoreForBilberry();
@@ -74,33 +95,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        ButterKnife.bind(this);
 
         //Capture submit button from layout
         final Button submitButton;
         submitButton = (Button) findViewById(R.id.submit_button);
         //Register the onClick listener with the implemented button
         submitButton.setOnClickListener(mListener);
-        //Instantiate variables that capture from layout RadioButtons views referring to right answer
-        noOption = (RadioButton) findViewById(R.id.no_radio_button);
-        oleaceaeOption = (RadioButton) findViewById(R.id.oleaceae_radio_button);
-        asteraceaeOption = (RadioButton) findViewById(R.id.asteraceae_radio_button);
-        yesOption = (RadioButton) findViewById(R.id.affirmative_radio_button);
-        //Instantiate variables that capture from layout checkboxes views referring to Asteraceae question
-        fennelOption = (CheckBox) findViewById(R.id.fennel_checkbox);
-        daisyOption = (CheckBox) findViewById(R.id.daisy_checkbox);
-        calendulaOption = (CheckBox) findViewById(R.id.calendula_checkbox);
-        //Instantiate variables that capture from layout checkboxes views referring to Rosaceae question
-        appleOption = (CheckBox) findViewById(R.id.apple_checkbox);
-        cornelianCherryOption = (CheckBox) findViewById(R.id.cornelian_cherry_checkbox);
-        hawthornOption = (CheckBox) findViewById(R.id.hawthorn_checkbox);
-        //Instantiate variables that capture from layout checkboxes views referring to Carrot question
-        carawayOption = (CheckBox) findViewById(R.id.caraway_checkbox);
-        cuminOption = (CheckBox) findViewById(R.id.cumin_checkbox);
-        estragonOption = (CheckBox) findViewById(R.id.estragon_checkbox);
-        //Instantiate variables that capture from layout editbox free form answer
-        plantagoView = (EditText) findViewById(R.id.plantago_edit);
-        orangeView = (EditText) findViewById(R.id.orange_edit);
-        crocusView = (EditText) findViewById(R.id.crocus_edit);
     }
 
     @Override
@@ -272,9 +273,9 @@ public class MainActivity extends AppCompatActivity {
         // Set keyboard button Done
         plantagoView.setImeOptions(EditorInfo.IME_ACTION_DONE);
         //Find the answer to free form text question
-        String orangeAnswer = plantagoView.getText().toString();
+        String plantagoAnswer = plantagoView.getText().toString();
         //Check if answer is correct to increase score by 1
-        if (orangeAnswer.compareTo(getString(R.string.spike)) == 0) {
+        if (plantagoAnswer.compareTo(getString(R.string.spike)) == 0) {
             score++;
         }
         return score;
