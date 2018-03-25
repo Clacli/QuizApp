@@ -1,7 +1,6 @@
 # QuizApp
 QUIZAPP - BOTANICAL QUIZ
-
-Project 3 for the Google Developer Scholarship Challenge EMEA 2017:Android Basics.
+Udacity - Google Android Basics Nanodegree Scholarship 2017/2018 #madewithudacity #googleudacityscholars #abndproject
 This quiz is made up of 10 questions:
 4 single choice questions
 3 multiple choice questions
@@ -17,6 +16,15 @@ All the other pictures are taken by me (Claudia Bellan), mainly taken in Aprica 
 
 The images were compressed or resized using ImageMagick, © 1999-2018 ImageMagick Studio LLC downloaded at :
 https://www.imagemagick.org/script/download.php
+
 This q/a on Stack Overflow helped me to do it:
 Recommendation for compressing JPG files with ImageMagick
 https://stackoverflow.com/questions/7261855/recommendation-for-compressing-jpg-files-with-imagemagick
+
+
+This q/a on Stack Overflow it was very helpful, implementing the submit button and its functionality: 
+setOnclickListener vs OnClickListener vs View.OnClickListener
+https://stackoverflow.com/questions/29479647/setonclicklistener-vs-onclicklistener-vs-view-onclicklistener
+
+
+
