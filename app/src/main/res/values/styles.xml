@@ -13,4 +13,82 @@
         <item name="colorButtonNormal">#388E3C</item>
     </style>
 
+    <!-- Style for the header view of the quiz app -->
+    <style name="HeaderViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/vertical_space</item>
+        <item name="android:layout_marginTop">@dimen/vertical_space</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/header_text_size</item>
+    </style>
+
+    <!-- Style for the sub-header view of the quiz app -->
+    <style name="SubHeaderViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/vertical_space</item>
+        <item name="android:layout_marginTop">@dimen/vertical_space</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/sub_header</item>
+    </style>
+    <!-- Style for the parent view for each question -->
+    <style name="QuestionParentViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/vertical_space</item>
+        <item name="android:layout_marginTop">@dimen/vertical_space</item>
+    </style>
+
+    <!-- Style for each ImageView in Portrait mode-->
+    <style name="ImageStylePort">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/port_picture_height</item>
+        <item name="android:layout_marginBottom">@dimen/half_vertical_space</item>
+    </style>
+
+    <!-- Style for each ImageView in Landscape mode-->
+    <style name="ImageStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/land_picture_height</item>
+        <item name="android:layout_marginBottom">@dimen/half_vertical_space</item>
+    </style>
+
+    <!-- Style for each question TextView  -->
+    <style name="QuestionTextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/half_vertical_space</item>
+        <item name="android:layout_marginTop">@dimen/half_vertical_space</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/quiz_text</item>
+    </style>
+
+    <!-- Style for each answer view -->
+    <style name="AnswerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/quiz_text</item>
+        <item name="android:paddingLeft">@dimen/padding_left_of_answer</item>
+    </style>
+
+    <!-- Style for each EditText view -->
+    <style name="EditTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Style for Button -->
+    <style name="ButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginBottom">@dimen/vertical_space</item>
+        <item name="android:layout_marginTop">@dimen/button_margin_top</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
 </resources>
