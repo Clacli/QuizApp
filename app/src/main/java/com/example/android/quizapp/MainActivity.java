@@ -159,7 +159,7 @@ public class MainActivity extends AppCompatActivity {
         // Figure out if the user has checked yes answer
         boolean isNoAnswerChecked = noOption.isChecked();
         if (isNoAnswerChecked) {
-            score = score + 1;
+            score++;
         }
         return score;
     }
@@ -173,7 +173,7 @@ public class MainActivity extends AppCompatActivity {
         // Figure out if the user has checked Oleaceae answer
         boolean isOleaceaeChecked = oleaceaeOption.isChecked();
         if (isOleaceaeChecked) {
-            score = score + 1;
+            score++;
         }
         return score;
     }
@@ -187,7 +187,7 @@ public class MainActivity extends AppCompatActivity {
         // Figure out if the user has checked Asteraceae answer
         boolean isAsteraceaeChecked = asteraceaeOption.isChecked();
         if (isAsteraceaeChecked) {
-            score = score + 1;
+            score++;
         }
         return score;
     }
@@ -201,7 +201,7 @@ public class MainActivity extends AppCompatActivity {
         // Figure out if the user has checked yes answer
         boolean isYesAnswerChecked = yesOption.isChecked();
         if (isYesAnswerChecked) {
-            score = score + 1;
+            score++;
         }
         return score;
     }
@@ -220,7 +220,7 @@ public class MainActivity extends AppCompatActivity {
         boolean isCalendulaChecked = calendulaOption.isChecked();
         //Check if answer is correct
         if (!isFennelChecked && isDaisyChecked && isCalendulaChecked) {
-            score = score + 1;
+            score++;
         }
         return score;
     }
@@ -239,7 +239,7 @@ public class MainActivity extends AppCompatActivity {
         boolean isHawthornChecked = hawthornOption.isChecked();
         //Check if answer is correct
         if (isAppleChecked && !isCornelianCherryChecked && isHawthornChecked) {
-            score = score + 1;
+            score++;
         }
         return score;
     }
@@ -258,7 +258,7 @@ public class MainActivity extends AppCompatActivity {
         boolean isEstragonChecked = estragonOption.isChecked();
         //Check if answer is correct
         if (isCarawayChecked && isCuminChecked && !isEstragonChecked) {
-            score = score + 1;
+            score++;
         }
         return score;
     }
@@ -275,7 +275,7 @@ public class MainActivity extends AppCompatActivity {
         String orangeAnswer = plantagoView.getText().toString();
         //Check if answer is correct to increase score by 1
         if (orangeAnswer.compareTo(getString(R.string.spike)) == 0) {
-            score = score + 1;
+            score++;
         }
         return score;
     }
@@ -292,7 +292,7 @@ public class MainActivity extends AppCompatActivity {
         String orangeAnswer = orangeView.getText().toString();
         //Check if answer is correct to increase score by 1
         if (orangeAnswer.compareTo(getString(R.string.citrus)) == 0) {
-            score = score + 1;
+            score++;
         }
         return score;
     }
@@ -309,7 +309,7 @@ public class MainActivity extends AppCompatActivity {
         String crocusAnswer = crocusView.getText().toString();
         //Check if answer is correct to increase score by 1
         if (crocusAnswer.compareTo(getString(R.string.saffron)) == 0) {
-            score = score + 1;
+            score++;
         }
         return score;
     }
@@ -323,13 +323,13 @@ public class MainActivity extends AppCompatActivity {
 
     private String createMessage(int scoreOfTest) {
         String message;
-        int numberOfCorrectAnwers = scoreOfTest;
+        int numberOfCorrectAnswers = scoreOfTest;
         if (scoreOfTest == 0) {
             message = String.format(getString(R.string.score_0), scoreOfTest);
         } else if (score == 1) {
             message = String.format("%s%d", getString(R.string.score_1), score);
         } else if (scoreOfTest >= 2 && scoreOfTest <= 9) {
-            message = String.format(getString(R.string.score_2_to_9), numberOfCorrectAnwers, scoreOfTest);
+            message = String.format(getString(R.string.score_2_to_9), numberOfCorrectAnswers, scoreOfTest);
         } else {
             message = String.format(getString(R.string.score_10), scoreOfTest);
         }
