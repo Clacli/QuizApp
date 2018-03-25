@@ -15,142 +15,87 @@
         android:padding="@dimen/first_linear_layout_padding">
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/vertical_space"
-            android:layout_marginTop="@dimen/vertical_space"
-            android:gravity="center"
-            android:text="@string/quiz_header"
-            android:textAllCaps="true"
-            android:textColor="@android:color/black"
-            android:textSize="@dimen/header_text_size" />
+            style="@style/HeaderViewStyle"
+            android:text="@string/quiz_header" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/vertical_space"
-            android:layout_marginTop="@dimen/vertical_space"
-            android:gravity="center"
-            android:text="@string/quiz_subheader"
-            android:textColor="@android:color/black"
-            android:textSize="@dimen/sub_header" />
+            style="@style/SubHeaderViewStyle"
+            android:text="@string/quiz_subheader" />
 
         <RadioGroup
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/vertical_space"
-            android:layout_marginTop="@dimen/vertical_space"
+            style="@style/QuestionParentViewStyle"
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/land_picture_height"
-                android:layout_marginBottom="@dimen/half_vertical_space"
+                style="@style/ImageStyleLand"
                 android:contentDescription="@string/bilberry_shrub"
                 android:scaleType="centerCrop"
                 android:src="@drawable/bilberry" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/half_vertical_space"
-                android:layout_marginTop="@dimen/half_vertical_space"
-                android:text="@string/bilberry_question_text"
-                android:textColor="@android:color/black"
-                android:textSize="@dimen/quiz_text" />
+                style="@style/QuestionTextViewStyle"
+                android:text="@string/bilberry_question_text" />
 
             <RadioButton
                 android:id="@+id/yes_radio_button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/affirmative_answer"
-                android:textSize="@dimen/quiz_text" />
+                style="@style/AnswerStyle"
+                android:text="@string/affirmative_answer" />
 
             <RadioButton
                 android:id="@+id/no_radio_button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/negative_answer"
-                android:textSize="@dimen/quiz_text" />
+                style="@style/AnswerStyle"
+                android:text="@string/negative_answer" />
         </RadioGroup>
 
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/vertical_space"
-            android:layout_marginTop="@dimen/vertical_space"
+            style="@style/QuestionParentViewStyle"
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/land_picture_height"
-                android:layout_marginBottom="@dimen/half_vertical_space"
+                style="@style/ImageStyleLand"
                 android:contentDescription="@string/fly_on_a_daisy"
                 android:scaleType="centerCrop"
                 android:src="@drawable/daisy" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/half_vertical_space"
-                android:layout_marginTop="@dimen/half_vertical_space"
-                android:text="@string/asteraceae_question"
-                android:textColor="@android:color/black"
-                android:textSize="@dimen/quiz_text" />
+                style="@style/QuestionTextViewStyle"
+                android:text="@string/asteraceae_question" />
 
             <CheckBox
                 android:id="@+id/fennel_checkbox"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/foeniculum_vulgare_fennel"
-                android:textSize="@dimen/quiz_text" />
+                style="@style/AnswerStyle"
+                android:text="@string/foeniculum_vulgare_fennel" />
 
             <CheckBox
                 android:id="@+id/daisy_checkbox"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/daisy_answer"
-                android:textSize="@dimen/quiz_text" />
+                style="@style/AnswerStyle"
+                android:text="@string/daisy_answer" />
 
             <CheckBox
                 android:id="@+id/calendula_checkbox"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/marigold_answer"
-                android:textSize="@dimen/quiz_text" />
+                style="@style/AnswerStyle"
+                android:text="@string/marigold_answer" />
 
         </LinearLayout>
 
-
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/vertical_space"
-            android:layout_marginTop="@dimen/vertical_space"
+            style="@style/QuestionParentViewStyle"
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/land_picture_height"
-                android:layout_marginBottom="@dimen/half_vertical_space"
+                style="@style/ImageStyleLand"
                 android:contentDescription="@string/inflorescence_of_plantago_media"
                 android:scaleType="centerCrop"
                 android:src="@drawable/plantago" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/half_vertical_space"
-                android:layout_marginTop="@dimen/half_vertical_space"
-                android:text="@string/plantago_question"
-                android:textColor="@android:color/black"
-                android:textSize="@dimen/quiz_text" />
+                style="@style/QuestionTextViewStyle"
+                android:text="@string/plantago_question" />
 
             <EditText
                 android:id="@+id/plantago_edit"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/EditTextStyle"
                 android:hint="@string/answer_hint"
                 android:imeOptions="actionDone"
                 android:inputType="textCapWords" />
@@ -158,121 +103,80 @@
         </LinearLayout>
 
         <RadioGroup
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/vertical_space"
-            android:layout_marginTop="@dimen/vertical_space"
+            style="@style/QuestionParentViewStyle"
             android:orientation="vertical">
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/half_vertical_space"
-                android:layout_marginTop="@dimen/half_vertical_space"
-                android:text="@string/olive_family_question"
-                android:textColor="@android:color/black"
-                android:textSize="@dimen/quiz_text" />
-
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/land_picture_height"
-                android:layout_marginBottom="@dimen/half_vertical_space"
+                style="@style/ImageStyleLand"
                 android:contentDescription="@string/olive_branches"
                 android:scaleType="centerCrop"
                 android:src="@drawable/olivo" />
 
+            <TextView
+                style="@style/QuestionTextViewStyle"
+                android:text="@string/olive_family_question" />
+
             <RadioButton
                 android:id="@+id/oleaceae_radio_button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/oleaceae"
-                android:textSize="@dimen/quiz_text" />
+                style="@style/AnswerStyle"
+                android:text="@string/oleaceae" />
 
             <RadioButton
                 android:id="@+id/fraxinaceae_radio_button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/fraxinaceae"
-                android:textSize="@dimen/quiz_text" />
+                style="@style/AnswerStyle"
+                android:text="@string/fraxinaceae" />
         </RadioGroup>
 
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/vertical_space"
-            android:layout_marginTop="@dimen/vertical_space"
+            style="@style/QuestionParentViewStyle"
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/land_picture_height"
-                android:layout_marginBottom="@dimen/half_vertical_space"
+                style="@style/ImageStyleLand"
                 android:contentDescription="@string/rose_hip"
                 android:scaleType="centerCrop"
                 android:src="@drawable/cinorrodo" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/half_vertical_space"
-                android:layout_marginTop="@dimen/half_vertical_space"
-                android:text="@string/rosaceae_question"
-                android:textColor="@android:color/black"
-                android:textSize="@dimen/quiz_text" />
+                style="@style/QuestionTextViewStyle"
+                android:text="@string/rosaceae_question" />
 
             <CheckBox
                 android:id="@+id/apple_checkbox"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/apple"
-                android:textSize="@dimen/quiz_text" />
+                style="@style/AnswerStyle"
+                android:text="@string/apple" />
 
             <CheckBox
                 android:id="@+id/cornelian_cherry_checkbox"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/cornelian_cherry_answer"
-                android:textSize="@dimen/quiz_text" />
+                style="@style/AnswerStyle"
+                android:text="@string/cornelian_cherry_answer" />
 
             <CheckBox
                 android:id="@+id/hawthorn_checkbox"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/hawthorn"
-                android:textSize="@dimen/quiz_text" />
+                style="@style/AnswerStyle"
+                android:text="@string/hawthorn" />
 
         </LinearLayout>
 
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/vertical_space"
-            android:layout_marginTop="@dimen/vertical_space"
+            style="@style/QuestionParentViewStyle"
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/land_picture_height"
-                android:layout_marginBottom="@dimen/half_vertical_space"
+                style="@style/ImageStyleLand"
                 android:contentDescription="@string/flowered_lemon_tree"
                 android:scaleType="centerCrop"
                 android:src="@drawable/lemon" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/half_vertical_space"
-                android:layout_marginTop="@dimen/half_vertical_space"
-                android:text="@string/citrus_question"
-                android:textColor="@android:color/black"
-                android:textSize="@dimen/quiz_text" />
+                style="@style/QuestionTextViewStyle"
+                android:text="@string/citrus_question" />
 
             <EditText
                 android:id="@+id/orange_edit"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/EditTextStyle"
                 android:hint="@string/answer_hint"
                 android:imeOptions="actionDone"
                 android:inputType="textCapWords" />
@@ -281,119 +185,78 @@
 
 
         <RadioGroup
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/vertical_space"
-            android:layout_marginTop="@dimen/vertical_space"
+            style="@style/QuestionParentViewStyle"
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/land_picture_height"
-                android:layout_marginBottom="@dimen/half_vertical_space"
+                style="@style/ImageStyleLand"
                 android:contentDescription="@string/flowered_yarrow"
                 android:scaleType="centerCrop"
                 android:src="@drawable/achillea" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/half_vertical_space"
-                android:layout_marginTop="@dimen/half_vertical_space"
-                android:text="@string/yarrow_question"
-                android:textColor="@android:color/black"
-                android:textSize="@dimen/quiz_text" />
+                style="@style/QuestionTextViewStyle"
+                android:text="@string/yarrow_question" />
 
             <RadioButton
                 android:id="@+id/asteraceae_radio_button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/yarrow_answer"
-                android:textSize="@dimen/quiz_text" />
+                style="@style/AnswerStyle"
+                android:text="@string/yarrow_answer" />
 
             <RadioButton
                 android:id="@+id/campanulaceae_radio_button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/campanulaceae_answer"
-                android:textSize="@dimen/quiz_text" />
+                style="@style/AnswerStyle"
+                android:text="@string/campanulaceae_answer" />
         </RadioGroup>
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/vertical_space"
-            android:layout_marginTop="@dimen/vertical_space"
+            style="@style/QuestionParentViewStyle"
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/land_picture_height"
-                android:layout_marginBottom="@dimen/half_vertical_space"
+                style="@style/ImageStyleLand"
                 android:contentDescription="@string/flowered_carrot"
                 android:scaleType="center"
                 android:src="@drawable/carrot_flowers" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/half_vertical_space"
-                android:layout_marginTop="@dimen/half_vertical_space"
-                android:text="@string/wild_carrot_question"
-                android:textColor="@android:color/black"
-                android:textSize="@dimen/quiz_text" />
+                style="@style/QuestionTextViewStyle"
+                android:text="@string/wild_carrot_question" />
 
             <CheckBox
                 android:id="@+id/caraway_checkbox"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/caraway_answer"
-                android:textSize="@dimen/quiz_text" />
+                style="@style/AnswerStyle"
+                android:text="@string/caraway_answer" />
 
             <CheckBox
                 android:id="@+id/cumin_checkbox"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/cuminum_answer"
-                android:textSize="@dimen/quiz_text" />
+                style="@style/AnswerStyle"
+                android:text="@string/cuminum_answer" />
 
             <CheckBox
                 android:id="@+id/estragon_checkbox"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/estragon_answer"
-                android:textSize="@dimen/quiz_text" />
+                style="@style/AnswerStyle"
+                android:text="@string/estragon_answer" />
 
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/vertical_space"
-            android:layout_marginTop="@dimen/vertical_space"
+            style="@style/QuestionParentViewStyle"
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/land_picture_height"
-                android:layout_marginBottom="@dimen/half_vertical_space"
+                style="@style/ImageStyleLand"
                 android:contentDescription="@string/pistils_of_crocus"
                 android:scaleType="centerCrop"
                 android:src="@drawable/saffron" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/half_vertical_space"
-                android:layout_marginTop="@dimen/half_vertical_space"
-                android:text="@string/crocus_question"
-                android:textColor="@android:color/black"
-                android:textSize="@dimen/quiz_text" />
+                style="@style/QuestionTextViewStyle"
+                android:text="@string/crocus_question" />
 
             <EditText
                 android:id="@+id/crocus_edit"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/EditTextStyle"
                 android:hint="@string/answer_hint"
                 android:imeOptions="actionDone"
                 android:inputType="textCapWords" />
@@ -401,54 +264,34 @@
         </LinearLayout>
 
         <RadioGroup
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/vertical_space"
-            android:layout_marginTop="@dimen/vertical_space"
+            style="@style/QuestionParentViewStyle"
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/land_picture_height"
-                android:layout_marginBottom="@dimen/half_vertical_space"
+                style="@style/ImageStyleLand"
                 android:contentDescription="@string/flowered_lythrum_salicaria"
                 android:scaleType="centerCrop"
                 android:src="@drawable/salcerella" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/half_vertical_space"
-                android:layout_marginTop="@dimen/half_vertical_space"
-                android:text="@string/lythrum_question"
-                android:textColor="@android:color/black"
-                android:textSize="@dimen/quiz_text" />
+                style="@style/QuestionTextViewStyle"
+                android:text="@string/lythrum_question" />
 
             <RadioButton
                 android:id="@+id/affirmative_radio_button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/affirmative_answer"
-                android:textSize="@dimen/quiz_text" />
+                style="@style/AnswerStyle"
+                android:text="@string/affirmative_answer" />
 
             <RadioButton
                 android:id="@+id/negative_radio_button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/negative_answer"
-                android:textSize="@dimen/quiz_text" />
+                style="@style/AnswerStyle"
+                android:text="@string/negative_answer" />
         </RadioGroup>
-
 
         <Button
             android:id="@+id/submit_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginBottom="@dimen/vertical_space"
-            android:layout_marginTop="@dimen/button_margin_top"
-            android:text="@string/submit_button"
-            android:textColor="@android:color/white" />
+            style="@style/ButtonStyle"
+            android:text="@string/submit_button" />
 
     </LinearLayout>
 

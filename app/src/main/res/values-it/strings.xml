@@ -30,7 +30,7 @@
     <string name="flowered_yarrow">fiori di achillea</string>
     <string name="yarrow_question">A quale famiglia botanica appartiene il genere <xliff:g name="genusAchillea" example="Achillea L."><i>Achillea</i> L.</xliff:g>, achillea?</string>
     <string name="yarrow_answer"><xliff:g example="Asteraceae" id="familyAsteraceae">Asteraceae</xliff:g></string>
-    <string name="campanulaceae_answer"><xliff:g example="Asteraceae" id="familyAsteraceae">Campanulaceae</xliff:g></string>
+    <string name="campanulaceae_answer"><xliff:g example="Campanulaceae" id="familyCampanulaceae">Campanulaceae</xliff:g></string>
     <string name="wild_carrot_question">La carota selvatica, <xliff:g example="Daucus carota L" id="nameOfCarrot"><i>Daucus carota</i> L.</xliff:g>, appartiene alla famiglia delle <xliff:g example="Apiaceae" id="familyApiaceae">Apiaceae</xliff:g>. Quali delle seguenti piante appartiene alla stessa famiglia?</string>
     <string name="cuminum_answer"><xliff:g example="Cuminum cyminum L." id="nameOfCumin"><i>Cuminum cyminum</i> L.</xliff:g> - cumino</string>
     <string name="caraway_answer"><xliff:g example="Carum carvi L." id="nameOfCaraway"><i>Carum carvi</i> L.</xliff:g> - carvi</string>
