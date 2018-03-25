@@ -26,5 +26,7 @@ This q/a on Stack Overflow it was very helpful, implementing the submit button a
 setOnclickListener vs OnClickListener vs View.OnClickListener
 https://stackoverflow.com/questions/29479647/setonclicklistener-vs-onclicklistener-vs-view-onclicklistener
 
-
+I integrated Butter Knife library to the code to for easy initialization by eliminating the use of findViewById.
+Butter Knife Copyright 2013 Jake Wharton
+http://jakewharton.github.io/butterknife/
 
