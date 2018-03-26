@@ -273,7 +273,7 @@ public class MainActivity extends AppCompatActivity {
         // Set keyboard button Done
         plantagoView.setImeOptions(EditorInfo.IME_ACTION_DONE);
         //Find the answer to free form text question
-        String plantagoAnswer = plantagoView.getText().toString();
+        String plantagoAnswer = plantagoView.getText().toString().trim();
         //Check if answer is correct to increase score by 1
         if (plantagoAnswer.compareTo(getString(R.string.spike)) == 0) {
             score++;
@@ -290,7 +290,7 @@ public class MainActivity extends AppCompatActivity {
         // Set keyboard button Done
         orangeView.setImeOptions(EditorInfo.IME_ACTION_DONE);
         //Find the answer to free form text question
-        String orangeAnswer = orangeView.getText().toString();
+        String orangeAnswer = orangeView.getText().toString().trim();
         //Check if answer is correct to increase score by 1
         if (orangeAnswer.compareTo(getString(R.string.citrus)) == 0) {
             score++;
@@ -307,7 +307,7 @@ public class MainActivity extends AppCompatActivity {
         // Set keyboard button Done
         crocusView.setImeOptions(EditorInfo.IME_ACTION_DONE);
         //Find the answer to free form text question
-        String crocusAnswer = crocusView.getText().toString();
+        String crocusAnswer = crocusView.getText().toString().trim();
         //Check if answer is correct to increase score by 1
         if (crocusAnswer.compareTo(getString(R.string.saffron)) == 0) {
             score++;
