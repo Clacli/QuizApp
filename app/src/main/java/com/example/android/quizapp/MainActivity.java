@@ -275,7 +275,7 @@ public class MainActivity extends AppCompatActivity {
         //Find the answer to free form text question
         String plantagoAnswer = plantagoView.getText().toString().trim();
         //Check if answer is correct to increase score by 1
-        if (plantagoAnswer.compareTo(getString(R.string.spike)) == 0) {
+        if (plantagoAnswer.equalsIgnoreCase(getString(R.string.spike))) {
             score++;
         }
         return score;
@@ -292,7 +292,7 @@ public class MainActivity extends AppCompatActivity {
         //Find the answer to free form text question
         String orangeAnswer = orangeView.getText().toString().trim();
         //Check if answer is correct to increase score by 1
-        if (orangeAnswer.compareTo(getString(R.string.citrus)) == 0) {
+        if (orangeAnswer.equalsIgnoreCase(getString(R.string.citrus))) {
             score++;
         }
         return score;
@@ -309,7 +309,7 @@ public class MainActivity extends AppCompatActivity {
         //Find the answer to free form text question
         String crocusAnswer = crocusView.getText().toString().trim();
         //Check if answer is correct to increase score by 1
-        if (crocusAnswer.compareTo(getString(R.string.saffron)) == 0) {
+        if (crocusAnswer.equalsIgnoreCase((getString(R.string.saffron)))) {
             score++;
         }
         return score;
