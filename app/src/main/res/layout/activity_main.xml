@@ -86,7 +86,7 @@
                 style="@style/ImageStylePort"
                 android:contentDescription="@string/inflorescence_of_plantago_media"
                 android:scaleType="centerCrop"
-                android:src="@drawable/plantago" />
+                android:src="@drawable/lilplantago" />
 
             <TextView
                 style="@style/QuestionTextViewStyle"
