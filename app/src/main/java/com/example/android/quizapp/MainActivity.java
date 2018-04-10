@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
     private int score;
 
     // Create an anonymous implementation of OnClickListener
-    private OnClickListener mListener = new OnClickListener() {
+    private OnClickListener submitListener = new OnClickListener() {
         public void onClick(View v) {
             calculateScoreForBilberry();
             calulateScoreForAsteraceae();
@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
         final Button submitButton;
         submitButton = (Button) findViewById(R.id.submit_button);
         //Register the onClick listener with the implemented button
-        submitButton.setOnClickListener(mListener);
+        submitButton.setOnClickListener(submitListener);
     }
 
     @Override
